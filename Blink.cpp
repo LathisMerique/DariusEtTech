@@ -13,13 +13,14 @@ Oscillator osc;
 
 void MyCallback(AudioHandle::InterleavingInputBuffer  in,
                 AudioHandle::InterleavingOutputBuffer out,
-                size_t                    size)
+                size_t                                size)
 
 {
-    float osc_out = osc.Process();
-    for(size_t i = 0; i < size; i++)
+    
+    for(size_t i = 0; i < size; i += 2)
     {
-        out[i] = osc_out;
+        float osc_out = osc.Process();
+        out[i]     = osc_out;
         out[i + 1] = osc_out;
     }
 }
