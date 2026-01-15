@@ -1,7 +1,6 @@
 #include "daisy_seed.h"
 #include "daisysp.h"
 
-
 using namespace daisy;
 using namespace daisysp;
 
@@ -9,6 +8,9 @@ using namespace daisysp;
 DaisySeed hardware;
 
 Oscillator osc;
+
+Svf filter;
+
 
 void MyCallback(AudioHandle::InterleavingInputBuffer  in,
                 AudioHandle::InterleavingOutputBuffer out,
@@ -18,8 +20,11 @@ void MyCallback(AudioHandle::InterleavingInputBuffer  in,
     for(size_t i = 0; i < size; i += 2)
     {
         float osc_out = osc.Process();
-        out[i]        = osc_out;
-        out[i + 1]    = osc_out;
+        filter.Process(osc_out);
+        float filtered = filter.Low();
+
+        out[i]     = filtered;
+        out[i + 1] = filtered;
     }
 }
 
@@ -30,20 +35,19 @@ int main(void)
     double sr = hardware.AudioSampleRate();
 
     osc.Init(sr);
+    osc.SetWaveform(Oscillator::WAVE_SAW);
     osc.SetFreq(440);
     osc.SetAmp(1);
-    hardware.StartAudio(MyCallback);
 
-    AdcChannelConfig adcConfig;
+    filter.Init(sr);
+    filter.SetFreq(2000.0f);
+    filter.SetRes(0.6f);
 
-    adcConfig.InitSingle(hardware.GetPin(15));
-    hardware.adc.Init(&adcConfig, 1);
-    hardware.adc.Start();
     for(;;)
-
     {
-        float value = hardware.adc.GetFloat(0);
-        osc.SetFreq(220.f + (value * 880.f));
-        System::Delay(1);
+        hardware.StartAudio(MyCallback);
+        System::Delay(1000);
+        hardware.StopAudio();
+        System::Delay(1000);
     }
 }
