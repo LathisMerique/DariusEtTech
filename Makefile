@@ -2,7 +2,7 @@
 TARGET = Blink
 
 # Sources
-CPP_SOURCES = bpmFrog.cpp
+CPP_SOURCES = diarrea_filter.cpp
 
 # Library Locations
 LIBDAISY_DIR = ../../libDaisy
