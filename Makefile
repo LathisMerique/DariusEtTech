@@ -2,7 +2,7 @@
 TARGET = Blink
 
 # Sources
-CPP_SOURCES = mathis.cpp
+CPP_SOURCES = bpmFrog.cpp
 
 # Library Locations
 LIBDAISY_DIR = ../../libDaisy

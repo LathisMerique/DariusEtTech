@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -12,7 +12,7 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
    9              		.eabi_attribute 30, 2
   10              		.eabi_attribute 34, 1
   11              		.eabi_attribute 18, 4
-  12              		.file	"mathis.cpp"
+  12              		.file	"bpmFrog.cpp"
   13              		.text
   14              	.Ltext0:
   15              		.cfi_sections	.debug_frame
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   34              		@ link register save eliminated.
   35              	.LBB87:
   36              	.LBI87:
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 2
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 2
 
 
   37              		.file 2 "../../libDaisy/src/sys/system.h"
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   54:../../libDaisy/src/sys/system.h **** 
   55:../../libDaisy/src/sys/system.h ****         SysClkFreq cpu_freq;
   56:../../libDaisy/src/sys/system.h ****         bool       use_dcache;
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 3
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 3
 
 
   57:../../libDaisy/src/sys/system.h ****         bool       use_icache;
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
    8:../../libDaisy/src/hid/usb.h **** /** @addtogroup human_interface
    9:../../libDaisy/src/hid/usb.h ****     @{
   10:../../libDaisy/src/hid/usb.h **** */
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 4
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 4
 
 
   11:../../libDaisy/src/hid/usb.h **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   17:../../libDaisy/src/per/adc.h **** /* While there may not be many configuration options here,
   18:../../libDaisy/src/per/adc.h **** using a struct like this allows us to add more configuration
   19:../../libDaisy/src/per/adc.h **** later without breaking existing functionality.
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 5
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 5
 
 
   20:../../libDaisy/src/per/adc.h **** */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   74:../../libDaisy/src/per/adc.h ****     void InitMux(dsy_gpio_pin    adc_pin,
   75:../../libDaisy/src/per/adc.h ****                  size_t          mux_channels,
   76:../../libDaisy/src/per/adc.h ****                  dsy_gpio_pin    mux_0,
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 6
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 6
 
 
   77:../../libDaisy/src/per/adc.h ****                  dsy_gpio_pin    mux_1 = {DSY_GPIOX, 0},
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   15:../../libDaisy/src/hid/audio.h ****  *           you will have to take the following steps:
   16:../../libDaisy/src/hid/audio.h ****  *             1. Create and Initialize an SaiHandle or two depending on your requirements
   17:../../libDaisy/src/hid/audio.h ****  *             2. Initialize the Audio Handle with the desired settings and the Initialized SaiHand
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 7
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 7
 
 
   18:../../libDaisy/src/hid/audio.h ****  *             3. If the connected codec requires special configuration or initialization, do so
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   72:../../libDaisy/src/hid/audio.h ****      */
   73:../../libDaisy/src/hid/audio.h ****     typedef void (*AudioCallback)(InputBuffer  in,
   74:../../libDaisy/src/hid/audio.h ****                                   OutputBuffer out,
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 8
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 8
 
 
   75:../../libDaisy/src/hid/audio.h ****                                   size_t       size);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   12:../../DaisySP/Source/Synthesis/oscillator.h **** #include <stdint.h>
   13:../../DaisySP/Source/Synthesis/oscillator.h **** #include "Utility/dsp.h"
   14:../../DaisySP/Source/Synthesis/oscillator.h **** #ifdef __cplusplus
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 9
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 9
 
 
   15:../../DaisySP/Source/Synthesis/oscillator.h **** 
@@ -513,24 +513,24 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
  100              	_Z10MyCallbackPKfPfj:
  101              	.LVL2:
  102              	.LFB4681:
- 103              		.file 7 "mathis.cpp"
-   1:mathis.cpp    **** #include "daisy_seed.h"
-   2:mathis.cpp    **** #include "daisysp.h"
-   3:mathis.cpp    **** 
-   4:mathis.cpp    **** using namespace daisy;
-   5:mathis.cpp    **** using namespace daisysp;
-   6:mathis.cpp    **** 
-   7:mathis.cpp    **** DaisySeed  hardware;
-   8:mathis.cpp    **** Oscillator osc;
-   9:mathis.cpp    **** void       MyCallback(AudioHandle::InterleavingInputBuffer  in,
-  10:mathis.cpp    ****                       AudioHandle::InterleavingOutputBuffer out,
-  11:mathis.cpp    ****                       size_t                                size)
-  12:mathis.cpp    **** {
+ 103              		.file 7 "bpmFrog.cpp"
+   1:bpmFrog.cpp   **** #include "daisy_seed.h"
+   2:bpmFrog.cpp   **** #include "daisysp.h"
+   3:bpmFrog.cpp   **** 
+   4:bpmFrog.cpp   **** using namespace daisy;
+   5:bpmFrog.cpp   **** using namespace daisysp;
+   6:bpmFrog.cpp   **** 
+   7:bpmFrog.cpp   **** DaisySeed  hardware;
+   8:bpmFrog.cpp   **** Oscillator osc;
+   9:bpmFrog.cpp   **** void       MyCallback(AudioHandle::InterleavingInputBuffer  in,
+  10:bpmFrog.cpp   ****                       AudioHandle::InterleavingOutputBuffer out,
+  11:bpmFrog.cpp   ****                       size_t                                size)
+  12:bpmFrog.cpp   **** {
  104              		.loc 7 12 1 is_stmt 1 view -0
  105              		.cfi_startproc
  106              		@ args = 0, pretend = 0, frame = 0
  107              		@ frame_needed = 0, uses_anonymous_args = 0
-  13:mathis.cpp    ****     for(size_t i = 0; i < size; i += 2)
+  13:bpmFrog.cpp   ****     for(size_t i = 0; i < size; i += 2)
  108              		.loc 7 13 5 view .LVU13
  109              	.LBB91:
  110              		.loc 7 13 25 view .LVU14
@@ -538,11 +538,11 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
  112 0002 013A     		subs	r2, r2, #1
  113              	.LVL3:
  114              		.loc 7 13 25 is_stmt 0 view .LVU15
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 10
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 10
 
 
  115              	.LBE91:
-  12:mathis.cpp    ****     for(size_t i = 0; i < size; i += 2)
+  12:bpmFrog.cpp   ****     for(size_t i = 0; i < size; i += 2)
  116              		.loc 7 12 1 view .LVU16
  117 0004 70B5     		push	{r4, r5, r6, lr}
  118              		.cfi_def_cfa_offset 16
@@ -558,32 +558,32 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
  128              	.LVL4:
  129              	.L6:
  130              	.LBB92:
-  14:mathis.cpp    ****     {
-  15:mathis.cpp    ****         float osc_out = osc.Process();
+  14:bpmFrog.cpp   ****     {
+  15:bpmFrog.cpp   ****         float osc_out = osc.Process();
  131              		.loc 7 15 9 is_stmt 1 discriminator 2 view .LVU18
  132              		.loc 7 15 36 is_stmt 0 discriminator 2 view .LVU19
  133 000c 0648     		ldr	r0, .L15
  134              	.LBE92:
-  13:mathis.cpp    ****     {
+  13:bpmFrog.cpp   ****     {
  135              		.loc 7 13 25 discriminator 2 view .LVU20
  136 000e 0834     		adds	r4, r4, #8
  137              	.LBB93:
  138              		.loc 7 15 36 discriminator 2 view .LVU21
  139 0010 FFF7FEFF 		bl	_ZN7daisysp10Oscillator7ProcessEv
  140              	.LVL5:
-  16:mathis.cpp    ****         out[i]        = osc_out;
+  16:bpmFrog.cpp   ****         out[i]        = osc_out;
  141              		.loc 7 16 9 is_stmt 1 discriminator 2 view .LVU22
  142              	.LBE93:
-  13:mathis.cpp    ****     {
+  13:bpmFrog.cpp   ****     {
  143              		.loc 7 13 25 is_stmt 0 discriminator 2 view .LVU23
  144 0014 AE42     		cmp	r6, r5
  145              	.LBB94:
  146              		.loc 7 16 23 discriminator 2 view .LVU24
  147 0016 04ED020A 		vstr.32	s0, [r4, #-8]
-  17:mathis.cpp    ****         out[i + 1]    = osc_out;
+  17:bpmFrog.cpp   ****         out[i + 1]    = osc_out;
  148              		.loc 7 17 9 is_stmt 1 discriminator 2 view .LVU25
  149              	.LBE94:
-  13:mathis.cpp    ****     {
+  13:bpmFrog.cpp   ****     {
  150              		.loc 7 13 25 is_stmt 0 discriminator 2 view .LVU26
  151 001a 05F10105 		add	r5, r5, #1
  152              	.LVL6:
@@ -591,18 +591,18 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
  154              		.loc 7 17 23 discriminator 2 view .LVU27
  155 001e 04ED010A 		vstr.32	s0, [r4, #-4]
  156              	.LBE95:
-  13:mathis.cpp    ****     {
+  13:bpmFrog.cpp   ****     {
  157              		.loc 7 13 5 is_stmt 1 discriminator 2 view .LVU28
  158              	.LVL7:
-  13:mathis.cpp    ****     {
+  13:bpmFrog.cpp   ****     {
  159              		.loc 7 13 25 discriminator 2 view .LVU29
  160 0022 F3D1     		bne	.L6
  161              	.LBE96:
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 11
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 11
 
 
-  18:mathis.cpp    ****     }
-  19:mathis.cpp    **** }
+  18:bpmFrog.cpp   ****     }
+  19:bpmFrog.cpp   **** }
  162              		.loc 7 19 1 is_stmt 0 view .LVU30
  163 0024 70BD     		pop	{r4, r5, r6, pc}
  164              	.LVL8:
@@ -630,61 +630,38 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
  187              		.fpu fpv5-d16
  189              	main:
  190              	.LFB4682:
-  20:mathis.cpp    **** 
-  21:mathis.cpp    **** 
-  22:mathis.cpp    **** 
-  23:mathis.cpp    **** float daisysp::mtof	(float m); 
-  24:mathis.cpp    **** 
-  25:mathis.cpp    **** float midiNotes[]  = {
-  26:mathis.cpp    ****     74,0,0,0,
-  27:mathis.cpp    ****     77,0,0,
-  28:mathis.cpp    ****     74,0, 
-  29:mathis.cpp    ****     74,
-  30:mathis.cpp    ****     79,0, 
-  31:mathis.cpp    ****     74,0,  
-  32:mathis.cpp    ****     72,0,
-  33:mathis.cpp    ****     74,0,0,0, 
-  34:mathis.cpp    ****     81,0,0,
-  35:mathis.cpp    ****     74,0,
-  36:mathis.cpp    ****     74,
-  37:mathis.cpp    ****     82,0, 
-  38:mathis.cpp    ****     81,0,
-  39:mathis.cpp    ****     77,0,
-  40:mathis.cpp    ****     74,0, 
-  41:mathis.cpp    ****     81,0,
-  42:mathis.cpp    ****     86,
-  43:mathis.cpp    ****     74,0,
-  44:mathis.cpp    ****     72, 
-  45:mathis.cpp    ****     72,0,
-  46:mathis.cpp    ****     69,0, 
-  47:mathis.cpp    ****     76,76,  
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 12
-
-
-  48:mathis.cpp    ****     74,74,74,74, 0
-  49:mathis.cpp    **** };
-  50:mathis.cpp    **** 
-  51:mathis.cpp    ****     
-  52:mathis.cpp    **** 
-  53:mathis.cpp    **** int main(void)
-  54:mathis.cpp    **** {
- 191              		.loc 7 54 1 is_stmt 1 view -0
+  20:bpmFrog.cpp   **** 
+  21:bpmFrog.cpp   **** 
+  22:bpmFrog.cpp   **** float daisysp::mtof(float m);
+  23:bpmFrog.cpp   **** 
+  24:bpmFrog.cpp   **** float midiNotes[]
+  25:bpmFrog.cpp   ****     = {74, 0,  0,  0,  77, 0,  0,  74, 0,  74, 79, 0,  74, 0,  72, 0, 74, 0,
+  26:bpmFrog.cpp   ****        0,  0,  81, 0,  0,  74, 0,  74, 82, 0,  81, 0,  77, 0,  74, 0, 81, 0,
+  27:bpmFrog.cpp   ****        86, 74, 0,  72, 72, 0,  69, 0,  76, 0,  74, 74, 74, 74, 0,  0};
+  28:bpmFrog.cpp   **** 
+  29:bpmFrog.cpp   **** 
+  30:bpmFrog.cpp   **** int main(void)
+  31:bpmFrog.cpp   **** {
+ 191              		.loc 7 31 1 is_stmt 1 view -0
  192              		.cfi_startproc
- 193              		@ args = 0, pretend = 0, frame = 0
+ 193              		@ args = 0, pretend = 0, frame = 24
  194              		@ frame_needed = 0, uses_anonymous_args = 0
-  55:mathis.cpp    ****     hardware.Init();
- 195              		.loc 7 55 5 view .LVU33
-  54:mathis.cpp    ****     hardware.Init();
- 196              		.loc 7 54 1 is_stmt 0 view .LVU34
+  32:bpmFrog.cpp   ****     hardware.Init();
+ 195              		.loc 7 32 5 view .LVU33
+  31:bpmFrog.cpp   ****     hardware.Init();
+ 196              		.loc 7 31 1 is_stmt 0 view .LVU34
  197 0000 70B5     		push	{r4, r5, r6, lr}
  198              		.cfi_def_cfa_offset 16
  199              		.cfi_offset 4, -16
  200              		.cfi_offset 5, -12
  201              		.cfi_offset 6, -8
  202              		.cfi_offset 14, -4
- 203              		.loc 7 55 18 view .LVU35
+ 203              		.loc 7 32 18 view .LVU35
  204 0002 0021     		movs	r1, #0
- 205 0004 2C48     		ldr	r0, .L24
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 12
+
+
+ 205 0004 3F48     		ldr	r0, .L24
  206              	.LBB113:
  207              	.LBB114:
   25:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Choices for output waveforms, POLYBLEP are appropriately labeled. Others are naive forms.
@@ -716,109 +693,20 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   51:../../DaisySP/Source/Synthesis/oscillator.h ****     {
   52:../../DaisySP/Source/Synthesis/oscillator.h ****         sr_        = sample_rate;
  208              		.loc 6 52 20 view .LVU36
- 209 0006 2D4D     		ldr	r5, .L24+4
- 210 0008 2D4E     		ldr	r6, .L24+8
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 13
-
-
- 211              	.LBE114:
- 212              	.LBE113:
-  54:mathis.cpp    ****     hardware.Init();
- 213              		.loc 7 54 1 view .LVU37
- 214 000a 2DED028B 		vpush.64	{d8}
- 215              		.cfi_def_cfa_offset 24
- 216              		.cfi_offset 80, -24
- 217              		.cfi_offset 81, -20
- 218              		.loc 7 55 18 view .LVU38
- 219 000e FFF7FEFF 		bl	_ZN5daisy9DaisySeed4InitEb
- 220              	.LVL9:
-  56:mathis.cpp    ****     double sr = hardware.AudioSampleRate();
- 221              		.loc 7 56 5 is_stmt 1 view .LVU39
- 222              		.loc 7 56 41 is_stmt 0 view .LVU40
- 223 0012 2948     		ldr	r0, .L24
- 224 0014 FFF7FEFF 		bl	_ZN5daisy9DaisySeed15AudioSampleRateEv
- 225              	.LVL10:
- 226              	.LBB118:
- 227              	.LBB115:
+ 209 0006 404D     		ldr	r5, .L24+4
+ 210              	.LBE114:
+ 211              	.LBE113:
+ 212              	.LBB118:
+ 213              	.LBB119:
   53:../../DaisySP/Source/Synthesis/oscillator.h ****         sr_recip_  = 1.0f / sample_rate;
- 228              		.loc 6 53 27 view .LVU41
- 229 0018 B7EE008A 		vmov.f32	s16, #1.0e+0
- 230              	.LBE115:
- 231              	.LBE118:
- 232              		.loc 7 56 41 view .LVU42
- 233 001c F0EE407A 		vmov.f32	s15, s0
- 234              	.LVL11:
-  57:mathis.cpp    ****     osc.Init(sr);
- 235              		.loc 7 57 5 is_stmt 1 view .LVU43
- 236              	.LBB119:
- 237              	.LBI113:
-  50:../../DaisySP/Source/Synthesis/oscillator.h ****     {
- 238              		.loc 6 50 10 view .LVU44
- 239              	.LBB116:
-  52:../../DaisySP/Source/Synthesis/oscillator.h ****         sr_recip_  = 1.0f / sample_rate;
- 240              		.loc 6 52 9 view .LVU45
   54:../../DaisySP/Source/Synthesis/oscillator.h ****         freq_      = 100.0f;
   55:../../DaisySP/Source/Synthesis/oscillator.h ****         amp_       = 0.5f;
- 241              		.loc 6 55 20 is_stmt 0 view .LVU46
- 242 0020 4FF07C53 		mov	r3, #1056964608
   56:../../DaisySP/Source/Synthesis/oscillator.h ****         pw_        = 0.5f;
   57:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_     = 0.0f;
- 243              		.loc 6 57 20 view .LVU47
- 244 0024 0022     		movs	r2, #0
-  54:../../DaisySP/Source/Synthesis/oscillator.h ****         freq_      = 100.0f;
- 245              		.loc 6 54 20 view .LVU48
- 246 0026 9FED270A 		vldr.32	s0, .L24+12
- 247              	.LVL12:
   58:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(freq_);
- 248              		.loc 6 58 34 view .LVU49
- 249 002a 2846     		mov	r0, r5
-  55:../../DaisySP/Source/Synthesis/oscillator.h ****         pw_        = 0.5f;
- 250              		.loc 6 55 20 view .LVU50
- 251 002c 6B60     		str	r3, [r5, #4]	@ float
-  53:../../DaisySP/Source/Synthesis/oscillator.h ****         freq_      = 100.0f;
- 252              		.loc 6 53 27 view .LVU51
- 253 002e 88EE277A 		vdiv.f32	s14, s16, s15
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 14
-
-
-  56:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_     = 0.0f;
- 254              		.loc 6 56 20 view .LVU52
- 255 0032 EB60     		str	r3, [r5, #12]	@ float
-  57:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(freq_);
- 256              		.loc 6 57 20 view .LVU53
- 257 0034 AA61     		str	r2, [r5, #24]	@ float
-  52:../../DaisySP/Source/Synthesis/oscillator.h ****         sr_recip_  = 1.0f / sample_rate;
- 258              		.loc 6 52 20 view .LVU54
- 259 0036 C5ED047A 		vstr.32	s15, [r5, #16]
-  53:../../DaisySP/Source/Synthesis/oscillator.h ****         freq_      = 100.0f;
- 260              		.loc 6 53 9 is_stmt 1 view .LVU55
-  54:../../DaisySP/Source/Synthesis/oscillator.h ****         amp_       = 0.5f;
- 261              		.loc 6 54 20 is_stmt 0 view .LVU56
- 262 003a 85ED020A 		vstr.32	s0, [r5, #8]
-  53:../../DaisySP/Source/Synthesis/oscillator.h ****         freq_      = 100.0f;
- 263              		.loc 6 53 20 view .LVU57
- 264 003e 85ED057A 		vstr.32	s14, [r5, #20]
-  54:../../DaisySP/Source/Synthesis/oscillator.h ****         amp_       = 0.5f;
- 265              		.loc 6 54 9 is_stmt 1 view .LVU58
-  55:../../DaisySP/Source/Synthesis/oscillator.h ****         pw_        = 0.5f;
- 266              		.loc 6 55 9 view .LVU59
-  56:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_     = 0.0f;
- 267              		.loc 6 56 9 view .LVU60
-  57:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(freq_);
- 268              		.loc 6 57 9 view .LVU61
- 269              		.loc 6 58 9 view .LVU62
- 270              		.loc 6 58 34 is_stmt 0 view .LVU63
- 271 0042 FFF7FEFF 		bl	_ZN7daisysp10Oscillator12CalcPhaseIncEf
- 272              	.LVL13:
   59:../../DaisySP/Source/Synthesis/oscillator.h ****         waveform_  = WAVE_SIN;
   60:../../DaisySP/Source/Synthesis/oscillator.h ****         eoc_       = true;
   61:../../DaisySP/Source/Synthesis/oscillator.h ****         eor_       = true;
- 273              		.loc 6 61 20 view .LVU64
- 274 0046 40F20112 		movw	r2, #257
- 275              	.LBE116:
- 276              	.LBE119:
- 277              	.LBB120:
- 278              	.LBB121:
   62:../../DaisySP/Source/Synthesis/oscillator.h ****     }
   63:../../DaisySP/Source/Synthesis/oscillator.h **** 
   64:../../DaisySP/Source/Synthesis/oscillator.h **** 
@@ -830,6 +718,9 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   70:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(f);
   71:../../DaisySP/Source/Synthesis/oscillator.h ****     }
   72:../../DaisySP/Source/Synthesis/oscillator.h **** 
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 13
+
+
   73:../../DaisySP/Source/Synthesis/oscillator.h **** 
   74:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the amplitude of the waveform.
   75:../../DaisySP/Source/Synthesis/oscillator.h ****     */
@@ -838,189 +729,339 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   78:../../DaisySP/Source/Synthesis/oscillator.h ****     */
   79:../../DaisySP/Source/Synthesis/oscillator.h ****     inline void SetWaveform(const uint8_t wf)
   80:../../DaisySP/Source/Synthesis/oscillator.h ****     {
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 15
-
-
   81:../../DaisySP/Source/Synthesis/oscillator.h ****         waveform_ = wf < WAVE_LAST ? wf : WAVE_SIN;
- 279              		.loc 6 81 19 view .LVU65
- 280 004a 0223     		movs	r3, #2
- 281              	.LBE121:
- 282              	.LBE120:
-  58:mathis.cpp    ****     osc.SetWaveform(Oscillator::WAVE_SAW);
-  59:mathis.cpp    ****     osc.SetAmp(1);
-  60:mathis.cpp    ****     hardware.StartAudio(MyCallback);
- 283              		.loc 7 60 24 view .LVU66
- 284 004c 1E49     		ldr	r1, .L24+16
- 285 004e 1A48     		ldr	r0, .L24
- 286              	.LBB123:
- 287              	.LBB124:
-  76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 288              		.loc 6 76 46 view .LVU67
- 289 0050 85ED018A 		vstr.32	s16, [r5, #4]
- 290              	.LBE124:
- 291              	.LBE123:
- 292              	.LBB126:
- 293              	.LBB117:
+ 214              		.loc 6 81 19 view .LVU37
+ 215 0008 0224     		movs	r4, #2
+ 216 000a 404E     		ldr	r6, .L24+8
+ 217              	.LBE119:
+ 218              	.LBE118:
+  31:bpmFrog.cpp   ****     hardware.Init();
+ 219              		.loc 7 31 1 view .LVU38
+ 220 000c 2DED028B 		vpush.64	{d8}
+ 221              		.cfi_def_cfa_offset 24
+ 222              		.cfi_offset 80, -24
+ 223              		.cfi_offset 81, -20
+ 224 0010 86B0     		sub	sp, sp, #24
+ 225              		.cfi_def_cfa_offset 48
+ 226              	.LBB122:
+ 227              	.LBB115:
+  53:../../DaisySP/Source/Synthesis/oscillator.h ****         sr_recip_  = 1.0f / sample_rate;
+ 228              		.loc 6 53 27 view .LVU39
+ 229 0012 B7EE008A 		vmov.f32	s16, #1.0e+0
+ 230              	.LBE115:
+ 231              	.LBE122:
+ 232              		.loc 7 32 18 view .LVU40
+ 233 0016 FFF7FEFF 		bl	_ZN5daisy9DaisySeed4InitEb
+ 234              	.LVL9:
+  33:bpmFrog.cpp   ****     double sr = hardware.AudioSampleRate();
+ 235              		.loc 7 33 5 is_stmt 1 view .LVU41
+ 236              		.loc 7 33 41 is_stmt 0 view .LVU42
+ 237 001a 3A48     		ldr	r0, .L24
+ 238 001c FFF7FEFF 		bl	_ZN5daisy9DaisySeed15AudioSampleRateEv
+ 239              	.LVL10:
+ 240 0020 F0EE407A 		vmov.f32	s15, s0
+ 241              	.LVL11:
+  34:bpmFrog.cpp   ****     osc.Init(sr);
+ 242              		.loc 7 34 5 is_stmt 1 view .LVU43
+ 243              	.LBB123:
+ 244              	.LBI113:
+  50:../../DaisySP/Source/Synthesis/oscillator.h ****     {
+ 245              		.loc 6 50 10 view .LVU44
+ 246              	.LBB116:
+  52:../../DaisySP/Source/Synthesis/oscillator.h ****         sr_recip_  = 1.0f / sample_rate;
+ 247              		.loc 6 52 9 view .LVU45
+  57:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(freq_);
+ 248              		.loc 6 57 20 is_stmt 0 view .LVU46
+ 249 0024 0022     		movs	r2, #0
+  55:../../DaisySP/Source/Synthesis/oscillator.h ****         pw_        = 0.5f;
+ 250              		.loc 6 55 20 view .LVU47
+ 251 0026 4FF07C53 		mov	r3, #1056964608
+  54:../../DaisySP/Source/Synthesis/oscillator.h ****         amp_       = 0.5f;
+ 252              		.loc 6 54 20 view .LVU48
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 14
+
+
+ 253 002a 9FED390A 		vldr.32	s0, .L24+12
+ 254              	.LVL12:
   58:../../DaisySP/Source/Synthesis/oscillator.h ****         waveform_  = WAVE_SIN;
- 294              		.loc 6 58 20 view .LVU68
- 295 0054 85ED070A 		vstr.32	s0, [r5, #28]
+ 255              		.loc 6 58 34 view .LVU49
+ 256 002e 2846     		mov	r0, r5
+  53:../../DaisySP/Source/Synthesis/oscillator.h ****         freq_      = 100.0f;
+ 257              		.loc 6 53 27 view .LVU50
+ 258 0030 88EE277A 		vdiv.f32	s14, s16, s15
+  52:../../DaisySP/Source/Synthesis/oscillator.h ****         sr_recip_  = 1.0f / sample_rate;
+ 259              		.loc 6 52 20 view .LVU51
+ 260 0034 C5ED047A 		vstr.32	s15, [r5, #16]
+  53:../../DaisySP/Source/Synthesis/oscillator.h ****         freq_      = 100.0f;
+ 261              		.loc 6 53 9 is_stmt 1 view .LVU52
+  57:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(freq_);
+ 262              		.loc 6 57 20 is_stmt 0 view .LVU53
+ 263 0038 AA61     		str	r2, [r5, #24]	@ float
+  55:../../DaisySP/Source/Synthesis/oscillator.h ****         pw_        = 0.5f;
+ 264              		.loc 6 55 20 view .LVU54
+ 265 003a 6B60     		str	r3, [r5, #4]	@ float
+  56:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_     = 0.0f;
+ 266              		.loc 6 56 20 view .LVU55
+ 267 003c EB60     		str	r3, [r5, #12]	@ float
+  54:../../DaisySP/Source/Synthesis/oscillator.h ****         amp_       = 0.5f;
+ 268              		.loc 6 54 20 view .LVU56
+ 269 003e 85ED020A 		vstr.32	s0, [r5, #8]
+  53:../../DaisySP/Source/Synthesis/oscillator.h ****         freq_      = 100.0f;
+ 270              		.loc 6 53 20 view .LVU57
+ 271 0042 85ED057A 		vstr.32	s14, [r5, #20]
+  54:../../DaisySP/Source/Synthesis/oscillator.h ****         amp_       = 0.5f;
+ 272              		.loc 6 54 9 is_stmt 1 view .LVU58
+  55:../../DaisySP/Source/Synthesis/oscillator.h ****         pw_        = 0.5f;
+ 273              		.loc 6 55 9 view .LVU59
+  56:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_     = 0.0f;
+ 274              		.loc 6 56 9 view .LVU60
+  57:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(freq_);
+ 275              		.loc 6 57 9 view .LVU61
+  58:../../DaisySP/Source/Synthesis/oscillator.h ****         waveform_  = WAVE_SIN;
+ 276              		.loc 6 58 9 view .LVU62
+  58:../../DaisySP/Source/Synthesis/oscillator.h ****         waveform_  = WAVE_SIN;
+ 277              		.loc 6 58 34 is_stmt 0 view .LVU63
+ 278 0046 FFF7FEFF 		bl	_ZN7daisysp10Oscillator12CalcPhaseIncEf
+ 279              	.LVL13:
+  61:../../DaisySP/Source/Synthesis/oscillator.h ****     }
+ 280              		.loc 6 61 20 view .LVU64
+ 281 004a 40F20113 		movw	r3, #257
+ 282              	.LBE116:
+ 283              	.LBE123:
+  35:bpmFrog.cpp   ****     osc.SetWaveform(Oscillator::WAVE_SAW);
+  36:bpmFrog.cpp   ****     osc.SetAmp(1);
+  37:bpmFrog.cpp   ****     hardware.StartAudio(MyCallback);
+ 284              		.loc 7 37 24 view .LVU65
+ 285 004e 3149     		ldr	r1, .L24+16
+ 286 0050 2C48     		ldr	r0, .L24
+ 287              	.LBB124:
+ 288              	.LBB117:
+  58:../../DaisySP/Source/Synthesis/oscillator.h ****         waveform_  = WAVE_SIN;
+ 289              		.loc 6 58 20 view .LVU66
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 15
+
+
+ 290 0052 85ED070A 		vstr.32	s0, [r5, #28]
   59:../../DaisySP/Source/Synthesis/oscillator.h ****         eoc_       = true;
- 296              		.loc 6 59 9 is_stmt 1 view .LVU69
+ 291              		.loc 6 59 9 is_stmt 1 view .LVU67
   60:../../DaisySP/Source/Synthesis/oscillator.h ****         eor_       = true;
- 297              		.loc 6 60 9 view .LVU70
+ 292              		.loc 6 60 9 view .LVU68
   61:../../DaisySP/Source/Synthesis/oscillator.h ****     }
- 298              		.loc 6 61 9 view .LVU71
+ 293              		.loc 6 61 9 view .LVU69
   61:../../DaisySP/Source/Synthesis/oscillator.h ****     }
- 299              		.loc 6 61 20 is_stmt 0 view .LVU72
- 300 0058 2A85     		strh	r2, [r5, #40]	@ movhi
- 301              	.LVL14:
+ 294              		.loc 6 61 20 is_stmt 0 view .LVU70
+ 295 0056 2B85     		strh	r3, [r5, #40]	@ movhi
+ 296              	.LVL14:
   61:../../DaisySP/Source/Synthesis/oscillator.h ****     }
- 302              		.loc 6 61 20 view .LVU73
- 303              	.LBE117:
- 304              	.LBE126:
-  58:mathis.cpp    ****     osc.SetAmp(1);
- 305              		.loc 7 58 5 is_stmt 1 view .LVU74
- 306              	.LBB127:
- 307              	.LBI120:
+ 297              		.loc 6 61 20 view .LVU71
+ 298              	.LBE117:
+ 299              	.LBE124:
+  35:bpmFrog.cpp   ****     osc.SetAmp(1);
+ 300              		.loc 7 35 5 is_stmt 1 view .LVU72
+ 301              	.LBB125:
+ 302              	.LBI118:
   79:../../DaisySP/Source/Synthesis/oscillator.h ****     {
- 308              		.loc 6 79 17 view .LVU75
- 309              	.LBB122:
- 310              		.loc 6 81 9 view .LVU76
- 311              		.loc 6 81 19 is_stmt 0 view .LVU77
- 312 005a 2B70     		strb	r3, [r5]
- 313              	.LVL15:
- 314              		.loc 6 81 19 view .LVU78
- 315              	.LBE122:
+ 303              		.loc 6 79 17 view .LVU73
+ 304              	.LBB120:
+ 305              		.loc 6 81 9 view .LVU74
+ 306              		.loc 6 81 9 is_stmt 0 view .LVU75
+ 307              	.LBE120:
+ 308              	.LBE125:
+  36:bpmFrog.cpp   ****     hardware.StartAudio(MyCallback);
+ 309              		.loc 7 36 5 is_stmt 1 view .LVU76
+ 310              	.LBB126:
+ 311              	.LBI126:
+  76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
+ 312              		.loc 6 76 17 view .LVU77
+ 313              	.LBB127:
+  76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
+ 314              		.loc 6 76 41 view .LVU78
+  76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
+ 315              		.loc 6 76 41 is_stmt 0 view .LVU79
  316              	.LBE127:
-  59:mathis.cpp    ****     hardware.StartAudio(MyCallback);
- 317              		.loc 7 59 5 is_stmt 1 view .LVU79
- 318              	.LBB128:
- 319              	.LBI123:
+ 317              	.LBE126:
+ 318              		.loc 7 37 5 is_stmt 1 view .LVU80
+ 319              	.LBB129:
+ 320              	.LBB121:
+ 321              		.loc 6 81 19 is_stmt 0 view .LVU81
+ 322 0058 2C70     		strb	r4, [r5]
+ 323              	.LBE121:
+ 324              	.LBE129:
+ 325              	.LBB130:
+ 326              	.LBB128:
   76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 320              		.loc 6 76 17 view .LVU80
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 16
+ 327              		.loc 6 76 46 view .LVU82
+ 328 005a 85ED018A 		vstr.32	s16, [r5, #4]
+ 329              	.LBE128:
+ 330              	.LBE130:
+ 331              		.loc 7 37 24 view .LVU83
+ 332 005e FFF7FEFF 		bl	_ZN5daisy9DaisySeed10StartAudioEPFvPKfPfjE
+ 333              	.LVL15:
+  38:bpmFrog.cpp   **** 
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 16
 
 
- 321              	.LBB125:
+  39:bpmFrog.cpp   ****     // ADC
+  40:bpmFrog.cpp   ****     AdcChannelConfig adcConfig;
+ 334              		.loc 7 40 5 is_stmt 1 view .LVU84
+  41:bpmFrog.cpp   ****     adcConfig.InitSingle(hardware.GetPin(15));
+ 335              		.loc 7 41 5 view .LVU85
+ 336              		.loc 7 41 25 is_stmt 0 view .LVU86
+ 337 0062 0F20     		movs	r0, #15
+ 338 0064 FFF7FEFF 		bl	_ZN5daisy9DaisySeed6GetPinEh
+ 339              	.LVL16:
+ 340 0068 0346     		mov	r3, r0	@ movhi
+ 341 006a 2246     		mov	r2, r4
+ 342 006c 01A8     		add	r0, sp, #4
+ 343 006e ADF80030 		strh	r3, [sp]	@ movhi
+ 344 0072 0099     		ldr	r1, [sp]
+ 345 0074 FFF7FEFF 		bl	_ZN5daisy16AdcChannelConfig10InitSingleE12dsy_gpio_pinNS0_15ConversionSpeedE
+ 346              	.LVL17:
+  42:bpmFrog.cpp   ****     hardware.adc.Init(&adcConfig, 1);
+ 347              		.loc 7 42 5 is_stmt 1 view .LVU87
+ 348              		.loc 7 42 22 is_stmt 0 view .LVU88
+ 349 0078 0423     		movs	r3, #4
+ 350 007a 2748     		ldr	r0, .L24+20
+ 351 007c 0122     		movs	r2, #1
+ 352 007e 0DEB0301 		add	r1, sp, r3
+ 353 0082 FFF7FEFF 		bl	_ZN5daisy9AdcHandle4InitEPNS_16AdcChannelConfigEjNS0_12OverSamplingE
+ 354              	.LVL18:
+  43:bpmFrog.cpp   ****     hardware.adc.Start();
+ 355              		.loc 7 43 5 is_stmt 1 view .LVU89
+ 356              		.loc 7 43 23 is_stmt 0 view .LVU90
+ 357 0086 2448     		ldr	r0, .L24+20
+ 358 0088 FFF7FEFF 		bl	_ZN5daisy9AdcHandle5StartEv
+ 359              	.LVL19:
+ 360              	.L20:
+  44:bpmFrog.cpp   **** 
+  45:bpmFrog.cpp   ****     for(;;)
+ 361              		.loc 7 45 5 is_stmt 1 view .LVU91
+  46:bpmFrog.cpp   ****     {
+  47:bpmFrog.cpp   ****         for(int index = 0; index < 53; index++)
+ 362              		.loc 7 47 9 view .LVU92
+ 363              	.LBB131:
+ 364              		.loc 7 47 34 view .LVU93
+ 365 008c 234C     		ldr	r4, .L24+24
+ 366 008e 0EE0     		b	.L21
+ 367              	.LVL20:
+ 368              	.L18:
+ 369              	.LBB132:
+ 370              	.LBB133:
+ 371              	.LBB134:
   76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 322              		.loc 6 76 41 view .LVU81
+ 372              		.loc 6 76 46 is_stmt 0 view .LVU94
+ 373 0090 6A60     		str	r2, [r5, #4]	@ float
+ 374              	.LVL21:
+ 375              	.L19:
   76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 323              		.loc 6 76 41 is_stmt 0 view .LVU82
- 324              	.LBE125:
- 325              	.LBE128:
- 326              		.loc 7 60 5 is_stmt 1 view .LVU83
- 327              		.loc 7 60 24 is_stmt 0 view .LVU84
- 328 005c FFF7FEFF 		bl	_ZN5daisy9DaisySeed10StartAudioEPFvPKfPfjE
- 329              	.LVL16:
- 330              	.L20:
-  61:mathis.cpp    **** 
-  62:mathis.cpp    ****     for(;;)
- 331              		.loc 7 62 5 is_stmt 1 view .LVU85
-  63:mathis.cpp    ****     {
-  64:mathis.cpp    ****         for(int index = 0; index < 52; index++)
- 332              		.loc 7 64 9 view .LVU86
- 333              	.LBB129:
- 334              		.loc 7 64 34 view .LVU87
- 335 0060 1A4C     		ldr	r4, .L24+20
- 336 0062 05E0     		b	.L21
- 337              	.LVL17:
- 338              	.L18:
- 339              	.LBB130:
- 340              	.LBB131:
- 341              	.LBB132:
-  76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 342              		.loc 6 76 46 is_stmt 0 view .LVU88
- 343 0064 6A60     		str	r2, [r5, #4]	@ float
- 344              	.LVL18:
- 345              	.L19:
-  76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 346              		.loc 6 76 46 view .LVU89
- 347              	.LBE132:
- 348              	.LBE131:
-  65:mathis.cpp    ****         {
-  66:mathis.cpp    ****             int j = midiNotes[index];
-  67:mathis.cpp    ****             if (j != 0) {
-  68:mathis.cpp    ****                 osc.SetAmp(0.5);
-  69:mathis.cpp    ****                 osc.SetFreq(mtof(midiNotes[index]));
-  70:mathis.cpp    ****             } else {
-  71:mathis.cpp    ****                 osc.SetAmp(0.0);
-  72:mathis.cpp    ****             }
-  73:mathis.cpp    ****             System::Delay(200);
- 349              		.loc 7 73 13 is_stmt 1 discriminator 2 view .LVU90
- 350              		.loc 7 73 26 is_stmt 0 discriminator 2 view .LVU91
- 351 0066 C820     		movs	r0, #200
- 352 0068 FFF7FEFF 		bl	_ZN5daisy6System5DelayEm
- 353              	.LVL19:
- 354              	.LBE130:
-  64:mathis.cpp    ****         {
- 355              		.loc 7 64 9 is_stmt 1 discriminator 2 view .LVU92
-  64:mathis.cpp    ****         {
- 356              		.loc 7 64 34 discriminator 2 view .LVU93
- 357 006c B442     		cmp	r4, r6
- 358 006e F7D0     		beq	.L20
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 17
+ 376              		.loc 6 76 46 view .LVU95
+ 377              	.LBE134:
+ 378              	.LBE133:
+  48:bpmFrog.cpp   ****         {
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 17
 
 
- 359              	.L21:
- 360              	.LBB155:
-  66:mathis.cpp    ****             if (j != 0) {
- 361              		.loc 7 66 13 view .LVU94
-  71:mathis.cpp    ****             }
- 362              		.loc 7 71 17 view .LVU95
- 363              	.LVL20:
- 364              	.LBB135:
- 365              	.LBI131:
-  76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 366              		.loc 6 76 17 view .LVU96
- 367              	.LBB133:
-  76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 368              		.loc 6 76 41 view .LVU97
- 369              	.LBE133:
- 370              	.LBE135:
-  66:mathis.cpp    ****             if (j != 0) {
- 371              		.loc 7 66 36 is_stmt 0 view .LVU98
- 372 0070 F4EC017A 		vldmia.32	r4!, {s15}
- 373              	.LVL21:
-  67:mathis.cpp    ****                 osc.SetAmp(0.5);
- 374              		.loc 7 67 13 is_stmt 1 view .LVU99
- 375              	.LBB136:
- 376              	.LBB134:
-  76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 377              		.loc 6 76 46 is_stmt 0 view .LVU100
- 378 0074 0022     		movs	r2, #0
- 379              	.LBE134:
- 380              	.LBE136:
-  66:mathis.cpp    ****             if (j != 0) {
- 381              		.loc 7 66 17 view .LVU101
- 382 0076 BDEEE77A 		vcvt.s32.f32	s14, s15
- 383 007a 17EE103A 		vmov	r3, s14	@ int
-  67:mathis.cpp    ****                 osc.SetAmp(0.5);
- 384              		.loc 7 67 13 view .LVU102
- 385 007e 002B     		cmp	r3, #0
- 386 0080 F0D0     		beq	.L18
-  68:mathis.cpp    ****                 osc.SetFreq(mtof(midiNotes[index]));
- 387              		.loc 7 68 17 is_stmt 1 view .LVU103
+  49:bpmFrog.cpp   ****             float valPot = hardware.adc.GetFloat(0); //maj adc
+  50:bpmFrog.cpp   **** 
+  51:bpmFrog.cpp   ****             int j = midiNotes[index];
+  52:bpmFrog.cpp   ****             if(j != 0)
+  53:bpmFrog.cpp   ****             {
+  54:bpmFrog.cpp   ****                 osc.SetAmp(0.5);
+  55:bpmFrog.cpp   ****                 osc.SetFreq(mtof(midiNotes[index]));
+  56:bpmFrog.cpp   ****             }
+  57:bpmFrog.cpp   ****             else
+  58:bpmFrog.cpp   ****             {
+  59:bpmFrog.cpp   ****                 osc.SetAmp(0.0);
+  60:bpmFrog.cpp   ****             }
+  61:bpmFrog.cpp   ****             System::Delay(250 * valPot + 75);
+ 379              		.loc 7 61 13 is_stmt 1 discriminator 2 view .LVU96
+ 380              		.loc 7 61 40 is_stmt 0 discriminator 2 view .LVU97
+ 381 0092 9FED237A 		vldr.32	s14, .L24+28
+ 382 0096 DFED237A 		vldr.32	s15, .L24+32
+ 383 009a E8EE077A 		vfma.f32	s15, s16, s14
+ 384              		.loc 7 61 26 discriminator 2 view .LVU98
+ 385 009e FCEEE77A 		vcvt.u32.f32	s15, s15
+ 386 00a2 17EE900A 		vmov	r0, s15	@ int
+ 387 00a6 FFF7FEFF 		bl	_ZN5daisy6System5DelayEm
  388              	.LVL22:
- 389              	.LBB137:
- 390              	.LBI137:
+ 389              	.LBE132:
+  47:bpmFrog.cpp   ****         {
+ 390              		.loc 7 47 9 is_stmt 1 discriminator 2 view .LVU99
+  47:bpmFrog.cpp   ****         {
+ 391              		.loc 7 47 34 discriminator 2 view .LVU100
+ 392 00aa B442     		cmp	r4, r6
+ 393 00ac EED0     		beq	.L20
+ 394              	.LVL23:
+ 395              	.L21:
+ 396              	.LBB157:
+  49:bpmFrog.cpp   **** 
+ 397              		.loc 7 49 13 view .LVU101
+  49:bpmFrog.cpp   **** 
+ 398              		.loc 7 49 49 is_stmt 0 view .LVU102
+ 399 00ae 0021     		movs	r1, #0
+ 400 00b0 1948     		ldr	r0, .L24+20
+ 401 00b2 FFF7FEFF 		bl	_ZNK5daisy9AdcHandle8GetFloatEh
+ 402              	.LVL24:
+  59:bpmFrog.cpp   ****             }
+ 403              		.loc 7 59 17 is_stmt 1 view .LVU103
+ 404              	.LBB137:
+ 405              	.LBI133:
   76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 391              		.loc 6 76 17 view .LVU104
- 392              	.LBB138:
+ 406              		.loc 6 76 17 view .LVU104
+ 407              	.LBB135:
   76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 393              		.loc 6 76 41 view .LVU105
- 394              	.LBE138:
- 395              	.LBE137:
- 396              	.LBB141:
- 397              	.LBB142:
- 398              		.file 8 "../../DaisySP/Source/Utility/dsp.h"
+ 408              		.loc 6 76 41 view .LVU105
+ 409              	.LBE135:
+ 410              	.LBE137:
+  51:bpmFrog.cpp   ****             if(j != 0)
+ 411              		.loc 7 51 36 is_stmt 0 view .LVU106
+ 412 00b6 F4EC017A 		vldmia.32	r4!, {s15}
+  49:bpmFrog.cpp   **** 
+ 413              		.loc 7 49 49 view .LVU107
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 18
+
+
+ 414 00ba B0EE408A 		vmov.f32	s16, s0
+ 415              	.LVL25:
+  51:bpmFrog.cpp   ****             if(j != 0)
+ 416              		.loc 7 51 13 is_stmt 1 view .LVU108
+  52:bpmFrog.cpp   ****             {
+ 417              		.loc 7 52 13 view .LVU109
+ 418              	.LBB138:
+ 419              	.LBB136:
+  76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
+ 420              		.loc 6 76 46 is_stmt 0 view .LVU110
+ 421 00be 0022     		movs	r2, #0
+ 422              	.LBE136:
+ 423              	.LBE138:
+  51:bpmFrog.cpp   ****             if(j != 0)
+ 424              		.loc 7 51 17 view .LVU111
+ 425 00c0 BDEEE77A 		vcvt.s32.f32	s14, s15
+ 426 00c4 17EE103A 		vmov	r3, s14	@ int
+  52:bpmFrog.cpp   ****             {
+ 427              		.loc 7 52 13 view .LVU112
+ 428 00c8 002B     		cmp	r3, #0
+ 429 00ca E1D0     		beq	.L18
+  54:bpmFrog.cpp   ****                 osc.SetFreq(mtof(midiNotes[index]));
+ 430              		.loc 7 54 17 is_stmt 1 view .LVU113
+ 431              	.LVL26:
+ 432              	.LBB139:
+ 433              	.LBI139:
+  76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
+ 434              		.loc 6 76 17 view .LVU114
+ 435              	.LBB140:
+  76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
+ 436              		.loc 6 76 41 view .LVU115
+ 437              	.LBE140:
+ 438              	.LBE139:
+ 439              	.LBB143:
+ 440              	.LBB144:
+ 441              		.file 8 "../../DaisySP/Source/Utility/dsp.h"
    1:../../DaisySP/Source/Utility/dsp.h **** /*
    2:../../DaisySP/Source/Utility/dsp.h **** Copyright (c) 2020 Electrosmith, Corp, Emilie Gillet
    3:../../DaisySP/Source/Utility/dsp.h **** 
    4:../../DaisySP/Source/Utility/dsp.h **** Use of this source code is governed by an MIT-style
    5:../../DaisySP/Source/Utility/dsp.h **** license that can be found in the LICENSE file or at
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 18
-
-
    6:../../DaisySP/Source/Utility/dsp.h **** https://opensource.org/licenses/MIT.
    7:../../DaisySP/Source/Utility/dsp.h **** */
    8:../../DaisySP/Source/Utility/dsp.h **** 
@@ -1037,6 +1078,9 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   19:../../DaisySP/Source/Utility/dsp.h **** /** PIs
   20:../../DaisySP/Source/Utility/dsp.h **** */
   21:../../DaisySP/Source/Utility/dsp.h **** #define PI_F 3.1415927410125732421875f
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 19
+
+
   22:../../DaisySP/Source/Utility/dsp.h **** #define TWOPI_F (2.0f * PI_F)
   23:../../DaisySP/Source/Utility/dsp.h **** #define HALFPI_F (PI_F * 0.5f)
   24:../../DaisySP/Source/Utility/dsp.h **** #define DSY_MIN(in, mn) (in < mn ? in : mn)
@@ -1078,9 +1122,6 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   60:../../DaisySP/Source/Utility/dsp.h **** }
   61:../../DaisySP/Source/Utility/dsp.h **** 
   62:../../DaisySP/Source/Utility/dsp.h **** /** quick fp clamp
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 19
-
-
   63:../../DaisySP/Source/Utility/dsp.h **** */
   64:../../DaisySP/Source/Utility/dsp.h **** inline float fclamp(float in, float min, float max)
   65:../../DaisySP/Source/Utility/dsp.h **** {
@@ -1097,6 +1138,9 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   76:../../DaisySP/Source/Utility/dsp.h ****     lp = (long *)(&f);
   77:../../DaisySP/Source/Utility/dsp.h ****     l  = *lp;
   78:../../DaisySP/Source/Utility/dsp.h ****     l -= 0x3F800000;
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 20
+
+
   79:../../DaisySP/Source/Utility/dsp.h ****     l <<= (n - 1);
   80:../../DaisySP/Source/Utility/dsp.h ****     l += 0x3F800000;
   81:../../DaisySP/Source/Utility/dsp.h ****     *lp = l;
@@ -1138,9 +1182,6 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
  117:../../DaisySP/Source/Utility/dsp.h **** {
  118:../../DaisySP/Source/Utility/dsp.h ****     float frac;
  119:../../DaisySP/Source/Utility/dsp.h ****     int   exp;
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 20
-
-
  120:../../DaisySP/Source/Utility/dsp.h ****     frac = frexpf(fabsf(f), &exp);
  121:../../DaisySP/Source/Utility/dsp.h ****     f    = 1.23149591368684f;
  122:../../DaisySP/Source/Utility/dsp.h ****     f *= frac;
@@ -1157,150 +1198,157 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
  133:../../DaisySP/Source/Utility/dsp.h **** {
  134:../../DaisySP/Source/Utility/dsp.h ****     return fastlog2f(f) * 0.3010299956639812f;
  135:../../DaisySP/Source/Utility/dsp.h **** }
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 21
+
+
  136:../../DaisySP/Source/Utility/dsp.h **** 
  137:../../DaisySP/Source/Utility/dsp.h **** /** Midi to frequency helper
  138:../../DaisySP/Source/Utility/dsp.h **** */
  139:../../DaisySP/Source/Utility/dsp.h **** inline float mtof(float m)
  140:../../DaisySP/Source/Utility/dsp.h **** {
  141:../../DaisySP/Source/Utility/dsp.h ****     return powf(2, (m - 69.0f) / 12.0f) * 440.0f;
- 399              		.loc 8 141 23 is_stmt 0 view .LVU106
- 400 0082 9FED137A 		vldr.32	s14, .L24+24
- 401              		.loc 8 141 16 view .LVU107
- 402 0086 F2EE080A 		vmov.f32	s1, #1.2e+1
- 403              	.LBE142:
- 404              	.LBE141:
- 405              	.LBB146:
- 406              	.LBB139:
+ 442              		.loc 8 141 23 is_stmt 0 view .LVU116
+ 443 00cc 9FED167A 		vldr.32	s14, .L24+36
+ 444              		.loc 8 141 16 view .LVU117
+ 445 00d0 F2EE080A 		vmov.f32	s1, #1.2e+1
+ 446              	.LBE144:
+ 447              	.LBE143:
+ 448              	.LBB148:
+ 449              	.LBB141:
   76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 407              		.loc 6 76 46 view .LVU108
- 408 008a 4FF07C53 		mov	r3, #1056964608
- 409              	.LBE139:
- 410              	.LBE146:
- 411              	.LBB147:
- 412              	.LBB143:
- 413              		.loc 8 141 16 view .LVU109
- 414 008e B0EE000A 		vmov.f32	s0, #2.0e+0
- 415              		.loc 8 141 23 view .LVU110
- 416 0092 77EEC77A 		vsub.f32	s15, s15, s14
- 417              	.LVL23:
- 418              		.loc 8 141 23 view .LVU111
- 419              	.LBE143:
- 420              	.LBE147:
- 421              	.LBB148:
- 422              	.LBB140:
+ 450              		.loc 6 76 46 view .LVU118
+ 451 00d4 4FF07C53 		mov	r3, #1056964608
+ 452              	.LBE141:
+ 453              	.LBE148:
+ 454              	.LBB149:
+ 455              	.LBB145:
+ 456              		.loc 8 141 16 view .LVU119
+ 457 00d8 B0EE000A 		vmov.f32	s0, #2.0e+0
+ 458              	.LVL27:
+ 459              		.loc 8 141 23 view .LVU120
+ 460 00dc 77EEC77A 		vsub.f32	s15, s15, s14
+ 461              	.LVL28:
+ 462              		.loc 8 141 23 view .LVU121
+ 463              	.LBE145:
+ 464              	.LBE149:
+ 465              	.LBB150:
+ 466              	.LBB142:
   76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 423              		.loc 6 76 46 view .LVU112
- 424 0096 6B60     		str	r3, [r5, #4]	@ float
- 425              	.LVL24:
+ 467              		.loc 6 76 46 view .LVU122
+ 468 00e0 6B60     		str	r3, [r5, #4]	@ float
+ 469              	.LVL29:
   76:../../DaisySP/Source/Synthesis/oscillator.h ****     /** Sets the waveform to be synthesized by the Process() function.
- 426              		.loc 6 76 46 view .LVU113
- 427              	.LBE140:
- 428              	.LBE148:
-  69:mathis.cpp    ****             } else {
- 429              		.loc 7 69 17 is_stmt 1 view .LVU114
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 21
-
-
- 430              	.LBB149:
- 431              	.LBI141:
+ 470              		.loc 6 76 46 view .LVU123
+ 471              	.LBE142:
+ 472              	.LBE150:
+  55:bpmFrog.cpp   ****             }
+ 473              		.loc 7 55 17 is_stmt 1 view .LVU124
+ 474              	.LBB151:
+ 475              	.LBI143:
  139:../../DaisySP/Source/Utility/dsp.h **** {
- 432              		.loc 8 139 14 view .LVU115
- 433              	.LBB144:
- 434              		.loc 8 141 5 view .LVU116
- 435              		.loc 8 141 16 is_stmt 0 view .LVU117
- 436 0098 C7EEA00A 		vdiv.f32	s1, s15, s1
- 437 009c FFF7FEFF 		bl	powf
- 438              	.LVL25:
- 439              		.loc 8 141 43 view .LVU118
- 440 00a0 DFED0C7A 		vldr.32	s15, .L24+28
- 441              	.LBE144:
- 442              	.LBE149:
- 443              	.LBB150:
- 444              	.LBB151:
+ 476              		.loc 8 139 14 view .LVU125
+ 477              	.LBB146:
+ 478              		.loc 8 141 5 view .LVU126
+ 479              		.loc 8 141 16 is_stmt 0 view .LVU127
+ 480 00e2 C7EEA00A 		vdiv.f32	s1, s15, s1
+ 481 00e6 FFF7FEFF 		bl	powf
+ 482              	.LVL30:
+ 483              		.loc 8 141 43 view .LVU128
+ 484 00ea DFED107A 		vldr.32	s15, .L24+40
+ 485              	.LBE146:
+ 486              	.LBE151:
+ 487              	.LBB152:
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 22
+
+
+ 488              	.LBB153:
   70:../../DaisySP/Source/Synthesis/oscillator.h ****     }
- 445              		.loc 6 70 34 view .LVU119
- 446 00a4 0548     		ldr	r0, .L24+4
- 447              	.LBE151:
- 448              	.LBE150:
- 449              	.LBB153:
- 450              	.LBB145:
- 451              		.loc 8 141 43 view .LVU120
- 452 00a6 20EE270A 		vmul.f32	s0, s0, s15
- 453              	.LVL26:
- 454              		.loc 8 141 43 view .LVU121
- 455              	.LBE145:
- 456              	.LBE153:
- 457              	.LBB154:
- 458              	.LBI150:
+ 489              		.loc 6 70 34 view .LVU129
+ 490 00ee 0648     		ldr	r0, .L24+4
+ 491              	.LBE153:
+ 492              	.LBE152:
+ 493              	.LBB155:
+ 494              	.LBB147:
+ 495              		.loc 8 141 43 view .LVU130
+ 496 00f0 20EE270A 		vmul.f32	s0, s0, s15
+ 497              	.LVL31:
+ 498              		.loc 8 141 43 view .LVU131
+ 499              	.LBE147:
+ 500              	.LBE155:
+ 501              	.LBB156:
+ 502              	.LBI152:
   67:../../DaisySP/Source/Synthesis/oscillator.h ****     {
- 459              		.loc 6 67 17 is_stmt 1 view .LVU122
- 460              	.LBB152:
+ 503              		.loc 6 67 17 is_stmt 1 view .LVU132
+ 504              	.LBB154:
   69:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(f);
- 461              		.loc 6 69 9 view .LVU123
+ 505              		.loc 6 69 9 view .LVU133
   69:../../DaisySP/Source/Synthesis/oscillator.h ****         phase_inc_ = CalcPhaseInc(f);
- 462              		.loc 6 69 20 is_stmt 0 view .LVU124
- 463 00aa 85ED020A 		vstr.32	s0, [r5, #8]
+ 506              		.loc 6 69 20 is_stmt 0 view .LVU134
+ 507 00f4 85ED020A 		vstr.32	s0, [r5, #8]
   70:../../DaisySP/Source/Synthesis/oscillator.h ****     }
- 464              		.loc 6 70 9 is_stmt 1 view .LVU125
+ 508              		.loc 6 70 9 is_stmt 1 view .LVU135
   70:../../DaisySP/Source/Synthesis/oscillator.h ****     }
- 465              		.loc 6 70 34 is_stmt 0 view .LVU126
- 466 00ae FFF7FEFF 		bl	_ZN7daisysp10Oscillator12CalcPhaseIncEf
- 467              	.LVL27:
+ 509              		.loc 6 70 34 is_stmt 0 view .LVU136
+ 510 00f8 FFF7FEFF 		bl	_ZN7daisysp10Oscillator12CalcPhaseIncEf
+ 511              	.LVL32:
   70:../../DaisySP/Source/Synthesis/oscillator.h ****     }
- 468              		.loc 6 70 20 view .LVU127
- 469 00b2 85ED070A 		vstr.32	s0, [r5, #28]
+ 512              		.loc 6 70 20 view .LVU137
+ 513 00fc 85ED070A 		vstr.32	s0, [r5, #28]
   71:../../DaisySP/Source/Synthesis/oscillator.h **** 
- 470              		.loc 6 71 5 view .LVU128
- 471 00b6 D6E7     		b	.L19
- 472              	.L25:
- 473              		.align	2
- 474              	.L24:
- 475 00b8 00000000 		.word	.LANCHOR1
- 476 00bc 00000000 		.word	.LANCHOR0
- 477 00c0 D0000000 		.word	.LANCHOR2+208
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 22
+ 514              		.loc 6 71 5 view .LVU138
+ 515 0100 C7E7     		b	.L19
+ 516              	.L25:
+ 517 0102 00BF     		.align	2
+ 518              	.L24:
+ 519 0104 00000000 		.word	.LANCHOR1
+ 520 0108 00000000 		.word	.LANCHOR0
+ 521 010c D4000000 		.word	.LANCHOR2+212
+ 522 0110 0000C842 		.word	1120403456
+ 523 0114 00000000 		.word	_Z10MyCallbackPKfPfj
+ 524 0118 18000000 		.word	.LANCHOR1+24
+ 525 011c 00000000 		.word	.LANCHOR2
+ 526 0120 00007A43 		.word	1132068864
+ 527 0124 00009642 		.word	1117126656
+ 528 0128 00008A42 		.word	1116340224
+ 529 012c 0000DC43 		.word	1138491392
+ 530              	.LBE154:
+ 531              	.LBE156:
+ 532              	.LBE157:
+ 533              	.LBE131:
+ 534              		.cfi_endproc
+ 535              	.LFE4682:
+ 537              		.section	.text.startup._GLOBAL__sub_I_hardware,"ax",%progbits
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 23
 
 
- 478 00c4 0000C842 		.word	1120403456
- 479 00c8 00000000 		.word	_Z10MyCallbackPKfPfj
- 480 00cc 00000000 		.word	.LANCHOR2
- 481 00d0 00008A42 		.word	1116340224
- 482 00d4 0000DC43 		.word	1138491392
- 483              	.LBE152:
- 484              	.LBE154:
- 485              	.LBE155:
- 486              	.LBE129:
- 487              		.cfi_endproc
- 488              	.LFE4682:
- 490              		.section	.text.startup._GLOBAL__sub_I_hardware,"ax",%progbits
- 491              		.align	1
- 492              		.p2align 2,,3
- 493              		.syntax unified
- 494              		.thumb
- 495              		.thumb_func
- 496              		.fpu fpv5-d16
- 498              	_GLOBAL__sub_I_hardware:
- 499              	.LFB5245:
-  74:mathis.cpp    ****         }
-  75:mathis.cpp    ****     }
-  76:mathis.cpp    **** }
- 500              		.loc 7 76 1 is_stmt 1 view -0
- 501              		.cfi_startproc
- 502              		@ args = 0, pretend = 0, frame = 0
- 503              		@ frame_needed = 0, uses_anonymous_args = 0
- 504              	.LBB179:
- 505              	.LBI179:
- 506              		.loc 7 76 1 view .LVU130
- 507              	.LVL28:
- 508              	.LBB180:
- 509              	.LBB181:
- 510              	.LBI181:
+ 538              		.align	1
+ 539              		.p2align 2,,3
+ 540              		.syntax unified
+ 541              		.thumb
+ 542              		.thumb_func
+ 543              		.fpu fpv5-d16
+ 545              	_GLOBAL__sub_I_hardware:
+ 546              	.LFB5245:
+  62:bpmFrog.cpp   ****         }
+  63:bpmFrog.cpp   ****     }
+  64:bpmFrog.cpp   **** }
+ 547              		.loc 7 64 1 is_stmt 1 view -0
+ 548              		.cfi_startproc
+ 549              		@ args = 0, pretend = 0, frame = 0
+ 550              		@ frame_needed = 0, uses_anonymous_args = 0
+ 551              	.LBB181:
+ 552              	.LBI181:
+ 553              		.loc 7 64 1 view .LVU140
+ 554              	.LVL33:
+ 555              	.LBB182:
+ 556              	.LBB183:
+ 557              	.LBI183:
   21:../../libDaisy/src/daisy_seed.h ****     ~DaisySeed() {}
- 511              		.loc 1 21 5 view .LVU131
- 512              	.LBB182:
- 513              	.LBB183:
- 514              	.LBI183:
- 515              		.file 9 "../../libDaisy/src/per/qspi.h"
+ 558              		.loc 1 21 5 view .LVU141
+ 559              	.LBB184:
+ 560              	.LBB185:
+ 561              	.LBI185:
+ 562              		.file 9 "../../libDaisy/src/per/qspi.h"
    1:../../libDaisy/src/per/qspi.h **** #ifndef DSY_QSPI
    2:../../libDaisy/src/per/qspi.h **** #define DSY_QSPI /**< Macro */
    3:../../libDaisy/src/per/qspi.h **** 
@@ -1318,9 +1366,6 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   15:../../libDaisy/src/per/qspi.h **** #define DSY_QSPI_BSS        \
   16:../../libDaisy/src/per/qspi.h ****     __attribute__((section( \
   17:../../libDaisy/src/per/qspi.h ****         ".qspiflash_bss"))) /**< used for reading memory in memory_mapped mode. */
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 23
-
-
   18:../../libDaisy/src/per/qspi.h **** 
   19:../../libDaisy/src/per/qspi.h **** namespace daisy
   20:../../libDaisy/src/per/qspi.h **** {
@@ -1333,6 +1378,9 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   27:../../libDaisy/src/per/qspi.h ****     Currently supported QSPI Devices: \n 
   28:../../libDaisy/src/per/qspi.h ****     * IS25LP080D
   29:../../libDaisy/src/per/qspi.h **** */
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 24
+
+
   30:../../libDaisy/src/per/qspi.h **** class QSPIHandle
   31:../../libDaisy/src/per/qspi.h **** {
   32:../../libDaisy/src/per/qspi.h ****   public:
@@ -1378,9 +1426,6 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   72:../../libDaisy/src/per/qspi.h ****         Indirect Polling mode: Device driver enabled. 
   73:../../libDaisy/src/per/qspi.h ****         */
   74:../../libDaisy/src/per/qspi.h ****         enum Mode
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 24
-
-
   75:../../libDaisy/src/per/qspi.h ****         {
   76:../../libDaisy/src/per/qspi.h ****             MEMORY_MAPPED,    /**< & */
   77:../../libDaisy/src/per/qspi.h ****             INDIRECT_POLLING, /**< & */
@@ -1393,6 +1438,9 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   84:../../libDaisy/src/per/qspi.h ****             dsy_gpio_pin io0; /**< & */
   85:../../libDaisy/src/per/qspi.h ****             dsy_gpio_pin io1; /**< & */
   86:../../libDaisy/src/per/qspi.h ****             dsy_gpio_pin io2; /**< & */
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 25
+
+
   87:../../libDaisy/src/per/qspi.h ****             dsy_gpio_pin io3; /**< & */
   88:../../libDaisy/src/per/qspi.h ****             dsy_gpio_pin clk; /**< & */
   89:../../libDaisy/src/per/qspi.h ****             dsy_gpio_pin ncs; /**< & */
@@ -1438,9 +1486,6 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
  129:../../libDaisy/src/per/qspi.h ****         \param buffer Buffer to write
  130:../../libDaisy/src/per/qspi.h ****         \return Result::OK or Result::ERR
  131:../../libDaisy/src/per/qspi.h ****         */
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 25
-
-
  132:../../libDaisy/src/per/qspi.h ****     Result Write(uint32_t address, uint32_t size, uint8_t* buffer);
  133:../../libDaisy/src/per/qspi.h **** 
  134:../../libDaisy/src/per/qspi.h ****     /** 
@@ -1453,6 +1498,9 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
  141:../../libDaisy/src/per/qspi.h ****         */
  142:../../libDaisy/src/per/qspi.h ****     Result Erase(uint32_t start_addr, uint32_t end_addr);
  143:../../libDaisy/src/per/qspi.h **** 
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 26
+
+
  144:../../libDaisy/src/per/qspi.h ****     /**  
  145:../../libDaisy/src/per/qspi.h ****          Erases a single sector of the chip.  
  146:../../libDaisy/src/per/qspi.h ****         TODO: Document the size of this function. 
@@ -1476,76 +1524,76 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
  164:../../libDaisy/src/per/qspi.h ****     void* GetData(uint32_t offset = 0);
  165:../../libDaisy/src/per/qspi.h **** 
  166:../../libDaisy/src/per/qspi.h ****     QSPIHandle() : pimpl_(nullptr) {}
- 516              		.loc 9 166 5 view .LVU132
- 517              	.LBE183:
- 518              	.LBE182:
- 519              	.LBE181:
- 520              	.LBE180:
- 521              	.LBE179:
- 522              		.loc 7 76 1 is_stmt 0 view .LVU133
- 523 0000 08B5     		push	{r3, lr}
- 524              		.cfi_def_cfa_offset 8
- 525              		.cfi_offset 3, -8
- 526              		.cfi_offset 14, -4
- 527              	.LBB209:
- 528              	.LBB207:
- 529              	.LBB204:
- 530              	.LBB202:
- 531              	.LBB188:
- 532              	.LBB184:
- 533              	.LBB185:
- 534              		.loc 9 166 34 view .LVU134
- 535 0002 0848     		ldr	r0, .L28
- 536 0004 0023     		movs	r3, #0
- 537              	.LBE185:
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 26
+ 563              		.loc 9 166 5 view .LVU142
+ 564              	.LBE185:
+ 565              	.LBE184:
+ 566              	.LBE183:
+ 567              	.LBE182:
+ 568              	.LBE181:
+ 569              		.loc 7 64 1 is_stmt 0 view .LVU143
+ 570 0000 08B5     		push	{r3, lr}
+ 571              		.cfi_def_cfa_offset 8
+ 572              		.cfi_offset 3, -8
+ 573              		.cfi_offset 14, -4
+ 574              	.LBB211:
+ 575              	.LBB209:
+ 576              	.LBB206:
+ 577              	.LBB204:
+ 578              	.LBB190:
+ 579              	.LBB186:
+ 580              	.LBB187:
+ 581              		.loc 9 166 34 view .LVU144
+ 582 0002 0848     		ldr	r0, .L28
+ 583 0004 0023     		movs	r3, #0
+ 584              	.LBE187:
+ 585              	.LBE186:
+ 586              	.LBE190:
+ 587              	.LBE204:
+ 588              	.LBE206:
+   7:bpmFrog.cpp   **** Oscillator osc;
+ 589              		.loc 7 7 12 view .LVU145
+ 590 0006 084A     		ldr	r2, .L28+4
+ 591 0008 0849     		ldr	r1, .L28+8
+ 592              	.LBB207:
+ 593              	.LBB205:
+ 594              	.LBB191:
+ 595              	.LBB189:
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 27
 
 
- 538              	.LBE184:
- 539              	.LBE188:
- 540              	.LBE202:
- 541              	.LBE204:
-   7:mathis.cpp    **** Oscillator osc;
- 542              		.loc 7 7 12 view .LVU135
- 543 0006 084A     		ldr	r2, .L28+4
- 544 0008 0849     		ldr	r1, .L28+8
- 545              	.LBB205:
- 546              	.LBB203:
- 547              	.LBB189:
- 548              	.LBB187:
- 549              	.LBB186:
- 550              		.loc 9 166 34 view .LVU136
- 551 000a 0360     		str	r3, [r0]
- 552              	.LVL29:
- 553              		.loc 9 166 34 view .LVU137
- 554              	.LBE186:
- 555              	.LBE187:
- 556              	.LBE189:
- 557              	.LBB190:
- 558              	.LBI190:
+ 596              	.LBB188:
+ 597              		.loc 9 166 34 view .LVU146
+ 598 000a 0360     		str	r3, [r0]
+ 599              	.LVL34:
+ 600              		.loc 9 166 34 view .LVU147
+ 601              	.LBE188:
+ 602              	.LBE189:
+ 603              	.LBE191:
+ 604              	.LBB192:
+ 605              	.LBI192:
   95:../../libDaisy/src/hid/audio.h ****     ~AudioHandle() {}
- 559              		.loc 5 95 5 is_stmt 1 view .LVU138
- 560              	.LBB191:
- 561              	.LBB192:
+ 606              		.loc 5 95 5 is_stmt 1 view .LVU148
+ 607              	.LBB193:
+ 608              	.LBB194:
   95:../../libDaisy/src/hid/audio.h ****     ~AudioHandle() {}
- 562              		.loc 5 95 35 is_stmt 0 view .LVU139
- 563 000c 4361     		str	r3, [r0, #20]
- 564              	.LVL30:
+ 609              		.loc 5 95 35 is_stmt 0 view .LVU149
+ 610 000c 4361     		str	r3, [r0, #20]
+ 611              	.LVL35:
   95:../../libDaisy/src/hid/audio.h ****     ~AudioHandle() {}
- 565              		.loc 5 95 35 view .LVU140
- 566              	.LBE192:
- 567              	.LBE191:
- 568              	.LBE190:
- 569              	.LBB193:
- 570              	.LBI193:
+ 612              		.loc 5 95 35 view .LVU150
+ 613              	.LBE194:
+ 614              	.LBE193:
+ 615              	.LBE192:
+ 616              	.LBB195:
+ 617              	.LBI195:
  109:../../libDaisy/src/per/adc.h ****     ~AdcHandle() {}
- 571              		.loc 4 109 5 is_stmt 1 view .LVU141
+ 618              		.loc 4 109 5 is_stmt 1 view .LVU151
  109:../../libDaisy/src/per/adc.h ****     ~AdcHandle() {}
- 572              		.loc 4 109 5 is_stmt 0 view .LVU142
- 573              	.LBE193:
- 574              	.LBB194:
- 575              	.LBI194:
- 576              		.file 10 "../../libDaisy/src/per/dac.h"
+ 619              		.loc 4 109 5 is_stmt 0 view .LVU152
+ 620              	.LBE195:
+ 621              	.LBB196:
+ 622              	.LBI196:
+ 623              		.file 10 "../../libDaisy/src/per/dac.h"
    1:../../libDaisy/src/per/dac.h **** #pragma once
    2:../../libDaisy/src/per/dac.h **** #ifndef DSY_DAC_H
    3:../../libDaisy/src/per/dac.h **** #define DSY_DAC_H
@@ -1558,9 +1606,6 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   10:../../libDaisy/src/per/dac.h ****  *  @ingroup per_analog
   11:../../libDaisy/src/per/dac.h ****  ** 
   12:../../libDaisy/src/per/dac.h ****  ** For now only Normal Mode is supported,
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 27
-
-
   13:../../libDaisy/src/per/dac.h ****  ** Sample and hold mode provides reduced power consumption, but requires a bit more setup.
   14:../../libDaisy/src/per/dac.h ****  **
   15:../../libDaisy/src/per/dac.h ****  ** For now connecting the DAC through other internal peripherals is also not supported.
@@ -1573,6 +1618,9 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   22:../../libDaisy/src/per/dac.h **** {
   23:../../libDaisy/src/per/dac.h ****   public:
   24:../../libDaisy/src/per/dac.h ****     /** Return Values for the DacHandle class */
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 28
+
+
   25:../../libDaisy/src/per/dac.h ****     enum class Result
   26:../../libDaisy/src/per/dac.h ****     {
   27:../../libDaisy/src/per/dac.h ****         OK,
@@ -1618,9 +1666,6 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   67:../../libDaisy/src/per/dac.h ****     };
   68:../../libDaisy/src/per/dac.h **** 
   69:../../libDaisy/src/per/dac.h ****     /** Configuration structure for initializing the DAC structure. */
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 28
-
-
   70:../../libDaisy/src/per/dac.h ****     struct Config
   71:../../libDaisy/src/per/dac.h ****     {
   72:../../libDaisy/src/per/dac.h ****         /** Target Samplerate in Hz used to configure the internal 
@@ -1633,36 +1678,39 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   79:../../libDaisy/src/per/dac.h ****         Mode        mode;
   80:../../libDaisy/src/per/dac.h ****         BitDepth    bitdepth;
   81:../../libDaisy/src/per/dac.h ****         BufferState buff_state;
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 29
+
+
   82:../../libDaisy/src/per/dac.h ****     };
   83:../../libDaisy/src/per/dac.h **** 
   84:../../libDaisy/src/per/dac.h ****     DacHandle() : pimpl_(nullptr) {}
- 577              		.loc 10 84 5 is_stmt 1 view .LVU143
- 578              	.LBB195:
- 579              	.LBB196:
- 580              		.loc 10 84 33 is_stmt 0 view .LVU144
- 581 000e 0362     		str	r3, [r0, #32]
- 582              	.LVL31:
- 583              		.loc 10 84 33 view .LVU145
- 584              	.LBE196:
- 585              	.LBE195:
- 586              	.LBE194:
- 587              	.LBB197:
- 588              	.LBI197:
+ 624              		.loc 10 84 5 is_stmt 1 view .LVU153
+ 625              	.LBB197:
+ 626              	.LBB198:
+ 627              		.loc 10 84 33 is_stmt 0 view .LVU154
+ 628 000e 0362     		str	r3, [r0, #32]
+ 629              	.LVL36:
+ 630              		.loc 10 84 33 view .LVU155
+ 631              	.LBE198:
+ 632              	.LBE197:
+ 633              	.LBE196:
+ 634              	.LBB199:
+ 635              	.LBI199:
   40:../../libDaisy/src/hid/usb.h **** 
- 589              		.loc 3 40 5 is_stmt 1 view .LVU146
+ 636              		.loc 3 40 5 is_stmt 1 view .LVU156
   40:../../libDaisy/src/hid/usb.h **** 
- 590              		.loc 3 40 5 is_stmt 0 view .LVU147
- 591              	.LBE197:
- 592              	.LBB198:
- 593              	.LBI198:
+ 637              		.loc 3 40 5 is_stmt 0 view .LVU157
+ 638              	.LBE199:
+ 639              	.LBB200:
+ 640              	.LBI200:
   96:../../libDaisy/src/sys/system.h ****     ~System() {}
- 594              		.loc 2 96 5 is_stmt 1 view .LVU148
+ 641              		.loc 2 96 5 is_stmt 1 view .LVU158
   96:../../libDaisy/src/sys/system.h ****     ~System() {}
- 595              		.loc 2 96 5 is_stmt 0 view .LVU149
- 596              	.LBE198:
- 597              	.LBB199:
- 598              	.LBI199:
- 599              		.file 11 "../../libDaisy/src/per/sai.h"
+ 642              		.loc 2 96 5 is_stmt 0 view .LVU159
+ 643              	.LBE200:
+ 644              	.LBB201:
+ 645              	.LBI201:
+ 646              		.file 11 "../../libDaisy/src/per/sai.h"
    1:../../libDaisy/src/per/sai.h **** #pragma once
    2:../../libDaisy/src/per/sai.h **** #ifndef DSY_SAI_H
    3:../../libDaisy/src/per/sai.h **** #define DSY_SAI_H
@@ -1678,9 +1726,6 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   13:../../libDaisy/src/per/sai.h ****  * 
   14:../../libDaisy/src/per/sai.h ****  * DMA Transfer commands must use buffers located within non-cached memory or use cache maintenance
   15:../../libDaisy/src/per/sai.h ****  * To declare an unitialized global element in the DMA memory section:
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 29
-
-
   16:../../libDaisy/src/per/sai.h ****  *    int32_t DSY_DMA_BUFFER_SECTOR my_buffer[96];
   17:../../libDaisy/src/per/sai.h ****  *
   18:../../libDaisy/src/per/sai.h ****  * Callback functions will be called once per half of the buffer. In the above example, 
@@ -1693,6 +1738,9 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   25:../../libDaisy/src/per/sai.h ****  *  sai_config.sr              = SaiHandle::Config::SampleRate::SAI_48KHZ;
   26:../../libDaisy/src/per/sai.h ****  *  sai_config.bit_depth       = SaiHandle::Config::BitDepth::SAI_24BIT;
   27:../../libDaisy/src/per/sai.h ****  *  sai_config.a_sync          = SaiHandle::Config::Sync::MASTER;
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 30
+
+
   28:../../libDaisy/src/per/sai.h ****  *  sai_config.b_sync          = SaiHandle::Config::Sync::SLAVE;
   29:../../libDaisy/src/per/sai.h ****  *  sai_config.a_dir           = SaiHandle::Config::Direction::RECEIVE;
   30:../../libDaisy/src/per/sai.h ****  *  sai_config.b_dir           = SaiHandle::Config::Direction::TRANSMIT;
@@ -1738,9 +1786,6 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   70:../../libDaisy/src/per/sai.h ****             SAI_32BIT,
   71:../../libDaisy/src/per/sai.h ****         };
   72:../../libDaisy/src/per/sai.h **** 
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 30
-
-
   73:../../libDaisy/src/per/sai.h ****         /** Specifies whether a particular block is the master or the slave 
   74:../../libDaisy/src/per/sai.h ****          ** If both are set to slave, no MCLK signal will be used, and it is
   75:../../libDaisy/src/per/sai.h ****          ** expected that the codec will have its own xtal.
@@ -1753,6 +1798,9 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
   82:../../libDaisy/src/per/sai.h **** 
   83:../../libDaisy/src/per/sai.h ****         /** Specifies the direction for each peripheral block. */
   84:../../libDaisy/src/per/sai.h ****         enum class Direction
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 31
+
+
   85:../../libDaisy/src/per/sai.h ****         {
   86:../../libDaisy/src/per/sai.h ****             TRANSMIT,
   87:../../libDaisy/src/per/sai.h ****             RECEIVE,
@@ -1777,219 +1825,220 @@ ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 1
  106:../../libDaisy/src/per/sai.h ****     };
  107:../../libDaisy/src/per/sai.h **** 
  108:../../libDaisy/src/per/sai.h ****     SaiHandle() : pimpl_(nullptr) {}
- 600              		.loc 11 108 5 is_stmt 1 view .LVU150
- 601              	.LBB200:
- 602              	.LBB201:
- 603              		.loc 11 108 33 is_stmt 0 view .LVU151
- 604 0010 C363     		str	r3, [r0, #60]
- 605              	.LVL32:
- 606              		.loc 11 108 33 view .LVU152
- 607              	.LBE201:
- 608              	.LBE200:
- 609              	.LBE199:
- 610              	.LBE203:
- 611              	.LBE205:
-   7:mathis.cpp    **** Oscillator osc;
- 612              		.loc 7 7 12 view .LVU153
- 613 0012 FFF7FEFF 		bl	__aeabi_atexit
- 614              	.LVL33:
- 615              	.LBB206:
- 616              	.LBI206:
+ 647              		.loc 11 108 5 is_stmt 1 view .LVU160
+ 648              	.LBB202:
+ 649              	.LBB203:
+ 650              		.loc 11 108 33 is_stmt 0 view .LVU161
+ 651 0010 C363     		str	r3, [r0, #60]
+ 652              	.LVL37:
+ 653              		.loc 11 108 33 view .LVU162
+ 654              	.LBE203:
+ 655              	.LBE202:
+ 656              	.LBE201:
+ 657              	.LBE205:
+ 658              	.LBE207:
+   7:bpmFrog.cpp   **** Oscillator osc;
+ 659              		.loc 7 7 12 view .LVU163
+ 660 0012 FFF7FEFF 		bl	__aeabi_atexit
+ 661              	.LVL38:
+ 662              	.LBB208:
+ 663              	.LBI208:
   23:../../DaisySP/Source/Synthesis/oscillator.h ****     ~Oscillator() {}
- 617              		.loc 6 23 5 is_stmt 1 view .LVU154
+ 664              		.loc 6 23 5 is_stmt 1 view .LVU164
   23:../../DaisySP/Source/Synthesis/oscillator.h ****     ~Oscillator() {}
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 31
+ 665              		.loc 6 23 5 is_stmt 0 view .LVU165
+ 666              	.LBE208:
+   8:bpmFrog.cpp   **** void       MyCallback(AudioHandle::InterleavingInputBuffer  in,
+ 667              		.loc 7 8 12 view .LVU166
+ 668 0016 044A     		ldr	r2, .L28+4
+ 669 0018 0549     		ldr	r1, .L28+12
+ 670 001a 0648     		ldr	r0, .L28+16
+ 671              	.LBE209:
+ 672              	.LBE211:
+ 673              		.loc 7 64 1 view .LVU167
+ 674 001c BDE80840 		pop	{r3, lr}
+ 675              		.cfi_restore 14
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 32
 
 
- 618              		.loc 6 23 5 is_stmt 0 view .LVU155
- 619              	.LBE206:
-   8:mathis.cpp    **** void       MyCallback(AudioHandle::InterleavingInputBuffer  in,
- 620              		.loc 7 8 12 view .LVU156
- 621 0016 044A     		ldr	r2, .L28+4
- 622 0018 0549     		ldr	r1, .L28+12
- 623 001a 0648     		ldr	r0, .L28+16
- 624              	.LBE207:
- 625              	.LBE209:
- 626              		.loc 7 76 1 view .LVU157
- 627 001c BDE80840 		pop	{r3, lr}
- 628              		.cfi_restore 14
- 629              		.cfi_restore 3
- 630              		.cfi_def_cfa_offset 0
- 631              	.LBB210:
- 632              	.LBB208:
-   8:mathis.cpp    **** void       MyCallback(AudioHandle::InterleavingInputBuffer  in,
- 633              		.loc 7 8 12 view .LVU158
- 634 0020 FFF7FEBF 		b	__aeabi_atexit
- 635              	.LVL34:
- 636              	.L29:
- 637              		.align	2
- 638              	.L28:
- 639 0024 00000000 		.word	.LANCHOR1
- 640 0028 00000000 		.word	__dso_handle
- 641 002c 00000000 		.word	_ZN5daisy9DaisySeedD1Ev
- 642 0030 00000000 		.word	_ZN7daisysp10OscillatorD1Ev
- 643 0034 00000000 		.word	.LANCHOR0
- 644              	.LBE208:
- 645              	.LBE210:
- 646              		.cfi_endproc
- 647              	.LFE5245:
- 649              		.section	.init_array,"aw",%init_array
- 650              		.align	2
- 651 0000 00000000 		.word	_GLOBAL__sub_I_hardware(target1)
- 652              		.global	midiNotes
- 653              		.global	osc
- 654              		.global	hardware
- 655              		.section	.bss.hardware,"aw",%nobits
- 656              		.align	2
- 657              		.set	.LANCHOR1,. + 0
- 660              	hardware:
- 661 0000 00000000 		.space	64
- 661      00000000 
- 661      00000000 
- 661      00000000 
- 661      00000000 
- 662              		.section	.bss.osc,"aw",%nobits
- 663              		.align	2
- 664              		.set	.LANCHOR0,. + 0
- 667              	osc:
- 668 0000 00000000 		.space	44
- 668      00000000 
- 668      00000000 
- 668      00000000 
- 668      00000000 
- 669              		.section	.data.midiNotes,"aw"
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 32
+ 676              		.cfi_restore 3
+ 677              		.cfi_def_cfa_offset 0
+ 678              	.LBB212:
+ 679              	.LBB210:
+   8:bpmFrog.cpp   **** void       MyCallback(AudioHandle::InterleavingInputBuffer  in,
+ 680              		.loc 7 8 12 view .LVU168
+ 681 0020 FFF7FEBF 		b	__aeabi_atexit
+ 682              	.LVL39:
+ 683              	.L29:
+ 684              		.align	2
+ 685              	.L28:
+ 686 0024 00000000 		.word	.LANCHOR1
+ 687 0028 00000000 		.word	__dso_handle
+ 688 002c 00000000 		.word	_ZN5daisy9DaisySeedD1Ev
+ 689 0030 00000000 		.word	_ZN7daisysp10OscillatorD1Ev
+ 690 0034 00000000 		.word	.LANCHOR0
+ 691              	.LBE210:
+ 692              	.LBE212:
+ 693              		.cfi_endproc
+ 694              	.LFE5245:
+ 696              		.section	.init_array,"aw",%init_array
+ 697              		.align	2
+ 698 0000 00000000 		.word	_GLOBAL__sub_I_hardware(target1)
+ 699              		.global	midiNotes
+ 700              		.global	osc
+ 701              		.global	hardware
+ 702              		.section	.bss.hardware,"aw",%nobits
+ 703              		.align	2
+ 704              		.set	.LANCHOR1,. + 0
+ 707              	hardware:
+ 708 0000 00000000 		.space	64
+ 708      00000000 
+ 708      00000000 
+ 708      00000000 
+ 708      00000000 
+ 709              		.section	.bss.osc,"aw",%nobits
+ 710              		.align	2
+ 711              		.set	.LANCHOR0,. + 0
+ 714              	osc:
+ 715 0000 00000000 		.space	44
+ 715      00000000 
+ 715      00000000 
+ 715      00000000 
+ 715      00000000 
+ 716              		.section	.data.midiNotes,"aw"
+ 717              		.align	2
+ 718              		.set	.LANCHOR2,. + 0
+ 721              	midiNotes:
+ 722 0000 00009442 		.word	1116995584
+ 723 0004 00000000 		.word	0
+ 724 0008 00000000 		.word	0
+ 725 000c 00000000 		.word	0
+ 726 0010 00009A42 		.word	1117388800
+ 727 0014 00000000 		.word	0
+ 728 0018 00000000 		.word	0
+ 729 001c 00009442 		.word	1116995584
+ 730 0020 00000000 		.word	0
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 33
 
 
- 670              		.align	2
- 671              		.set	.LANCHOR2,. + 0
- 674              	midiNotes:
- 675 0000 00009442 		.word	1116995584
- 676 0004 00000000 		.word	0
- 677 0008 00000000 		.word	0
- 678 000c 00000000 		.word	0
- 679 0010 00009A42 		.word	1117388800
- 680 0014 00000000 		.word	0
- 681 0018 00000000 		.word	0
- 682 001c 00009442 		.word	1116995584
- 683 0020 00000000 		.word	0
- 684 0024 00009442 		.word	1116995584
- 685 0028 00009E42 		.word	1117650944
- 686 002c 00000000 		.word	0
- 687 0030 00009442 		.word	1116995584
- 688 0034 00000000 		.word	0
- 689 0038 00009042 		.word	1116733440
- 690 003c 00000000 		.word	0
- 691 0040 00009442 		.word	1116995584
- 692 0044 00000000 		.word	0
- 693 0048 00000000 		.word	0
- 694 004c 00000000 		.word	0
- 695 0050 0000A242 		.word	1117913088
- 696 0054 00000000 		.word	0
- 697 0058 00000000 		.word	0
- 698 005c 00009442 		.word	1116995584
- 699 0060 00000000 		.word	0
- 700 0064 00009442 		.word	1116995584
- 701 0068 0000A442 		.word	1118044160
- 702 006c 00000000 		.word	0
- 703 0070 0000A242 		.word	1117913088
- 704 0074 00000000 		.word	0
- 705 0078 00009A42 		.word	1117388800
- 706 007c 00000000 		.word	0
- 707 0080 00009442 		.word	1116995584
- 708 0084 00000000 		.word	0
- 709 0088 0000A242 		.word	1117913088
- 710 008c 00000000 		.word	0
- 711 0090 0000AC42 		.word	1118568448
- 712 0094 00009442 		.word	1116995584
- 713 0098 00000000 		.word	0
- 714 009c 00009042 		.word	1116733440
- 715 00a0 00009042 		.word	1116733440
- 716 00a4 00000000 		.word	0
- 717 00a8 00008A42 		.word	1116340224
- 718 00ac 00000000 		.word	0
- 719 00b0 00009842 		.word	1117257728
- 720 00b4 00009842 		.word	1117257728
- 721 00b8 00009442 		.word	1116995584
- 722 00bc 00009442 		.word	1116995584
- 723 00c0 00009442 		.word	1116995584
- 724 00c4 00009442 		.word	1116995584
- 725 00c8 00000000 		.word	0
- 726              		.text
- 727              	.Letext0:
- 728              		.file 12 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\machine\\_default_types.h"
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 33
+ 731 0024 00009442 		.word	1116995584
+ 732 0028 00009E42 		.word	1117650944
+ 733 002c 00000000 		.word	0
+ 734 0030 00009442 		.word	1116995584
+ 735 0034 00000000 		.word	0
+ 736 0038 00009042 		.word	1116733440
+ 737 003c 00000000 		.word	0
+ 738 0040 00009442 		.word	1116995584
+ 739 0044 00000000 		.word	0
+ 740 0048 00000000 		.word	0
+ 741 004c 00000000 		.word	0
+ 742 0050 0000A242 		.word	1117913088
+ 743 0054 00000000 		.word	0
+ 744 0058 00000000 		.word	0
+ 745 005c 00009442 		.word	1116995584
+ 746 0060 00000000 		.word	0
+ 747 0064 00009442 		.word	1116995584
+ 748 0068 0000A442 		.word	1118044160
+ 749 006c 00000000 		.word	0
+ 750 0070 0000A242 		.word	1117913088
+ 751 0074 00000000 		.word	0
+ 752 0078 00009A42 		.word	1117388800
+ 753 007c 00000000 		.word	0
+ 754 0080 00009442 		.word	1116995584
+ 755 0084 00000000 		.word	0
+ 756 0088 0000A242 		.word	1117913088
+ 757 008c 00000000 		.word	0
+ 758 0090 0000AC42 		.word	1118568448
+ 759 0094 00009442 		.word	1116995584
+ 760 0098 00000000 		.word	0
+ 761 009c 00009042 		.word	1116733440
+ 762 00a0 00009042 		.word	1116733440
+ 763 00a4 00000000 		.word	0
+ 764 00a8 00008A42 		.word	1116340224
+ 765 00ac 00000000 		.word	0
+ 766 00b0 00009842 		.word	1117257728
+ 767 00b4 00000000 		.word	0
+ 768 00b8 00009442 		.word	1116995584
+ 769 00bc 00009442 		.word	1116995584
+ 770 00c0 00009442 		.word	1116995584
+ 771 00c4 00009442 		.word	1116995584
+ 772 00c8 00000000 		.word	0
+ 773 00cc 00000000 		.word	0
+ 774              		.text
+ 775              	.Letext0:
+ 776              		.file 12 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\machine\\_default_types.h"
+ 777              		.file 13 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 778              		.file 14 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdint.h"
+ 779              		.file 15 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stddef.h"
+ 780              		.file 16 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cmath"
+ 781              		.file 17 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\std_abs.h"
+ 782              		.file 18 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdlib"
+ 783              		.file 19 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdint"
+ 784              		.file 20 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\type_traits"
+ 785              		.file 21 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\debug\\debug.h"
+ 786              		.file 22 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\arm-none-eabi\\t
+ 787              		.file 23 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\algorithmf
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 34
 
 
- 729              		.file 13 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_stdint.h"
- 730              		.file 14 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdint.h"
- 731              		.file 15 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stddef.h"
- 732              		.file 16 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cmath"
- 733              		.file 17 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\std_abs.h"
- 734              		.file 18 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdlib"
- 735              		.file 19 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdint"
- 736              		.file 20 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\type_traits"
- 737              		.file 21 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\debug\\debug.h"
- 738              		.file 22 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\arm-none-eabi\\t
- 739              		.file 23 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\algorithmf
- 740              		.file 24 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_pair.h
- 741              		.file 25 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\exception_
- 742              		.file 26 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdarg"
- 743              		.file 27 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdio"
- 744              		.file 28 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstring"
- 745              		.file 29 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cwchar"
- 746              		.file 30 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\clocale"
- 747              		.file 31 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\basic_stri
- 748              		.file 32 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_tempbu
- 749              		.file 33 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\predefined
- 750              		.file 34 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_types.h"
- 751              		.file 35 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\reent.h"
- 752              		.file 36 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\lock.h"
- 753              		.file 37 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\math.h"
- 754              		.file 38 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdlib.h"
- 755              		.file 39 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\math.h"
- 756              		.file 40 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\stdlib.h"
- 757              		.file 41 "../../libDaisy/src/daisy_core.h"
- 758              		.file 42 "../../libDaisy/src/per/tim.h"
- 759              		.file 43 "../../libDaisy/src/util/wav_format.h"
- 760              		.file 44 "../../libDaisy/src/dev/max11300.h"
- 761              		.file 45 "../../libDaisy/src/per/gpio.h"
- 762              		.file 46 "../../libDaisy/src/dev/sdram.h"
- 763              		.file 47 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stdarg.h"
- 764              		.file 48 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdio.h"
- 765              		.file 49 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\string.h"
- 766              		.file 50 "../../DaisySP/Source/Control/adenv.h"
- 767              		.file 51 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\wchar.h"
- 768              		.file 52 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\locale.h"
- 769              		.file 53 "<built-in>"
- 770              		.file 54 "../../libDaisy/src/dev/sr_595.h"
-ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s 			page 34
+ 788              		.file 24 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_pair.h
+ 789              		.file 25 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\exception_
+ 790              		.file 26 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdarg"
+ 791              		.file 27 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdio"
+ 792              		.file 28 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstring"
+ 793              		.file 29 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cwchar"
+ 794              		.file 30 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\clocale"
+ 795              		.file 31 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\basic_stri
+ 796              		.file 32 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_tempbu
+ 797              		.file 33 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\predefined
+ 798              		.file 34 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_types.h"
+ 799              		.file 35 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\reent.h"
+ 800              		.file 36 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\lock.h"
+ 801              		.file 37 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\math.h"
+ 802              		.file 38 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdlib.h"
+ 803              		.file 39 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\math.h"
+ 804              		.file 40 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\stdlib.h"
+ 805              		.file 41 "../../libDaisy/src/daisy_core.h"
+ 806              		.file 42 "../../libDaisy/src/per/tim.h"
+ 807              		.file 43 "../../libDaisy/src/util/wav_format.h"
+ 808              		.file 44 "../../libDaisy/src/dev/max11300.h"
+ 809              		.file 45 "../../libDaisy/src/per/gpio.h"
+ 810              		.file 46 "../../libDaisy/src/dev/sdram.h"
+ 811              		.file 47 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stdarg.h"
+ 812              		.file 48 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdio.h"
+ 813              		.file 49 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\string.h"
+ 814              		.file 50 "../../DaisySP/Source/Control/adenv.h"
+ 815              		.file 51 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\wchar.h"
+ 816              		.file 52 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\locale.h"
+ 817              		.file 53 "../../libDaisy/src/dev/sr_595.h"
+ 818              		.file 54 "<built-in>"
+ARM GAS  C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s 			page 35
 
 
 DEFINED SYMBOLS
-                            *ABS*:00000000 mathis.cpp
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:17     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:67     .text._ZN7daisysp10OscillatorD2Ev:00000000 $t
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:75     .text._ZN7daisysp10OscillatorD2Ev:00000000 _ZN7daisysp10OscillatorD2Ev
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:75     .text._ZN7daisysp10OscillatorD2Ev:00000000 _ZN7daisysp10OscillatorD1Ev
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:92     .text._Z10MyCallbackPKfPfj:00000000 $t
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:100    .text._Z10MyCallbackPKfPfj:00000000 _Z10MyCallbackPKfPfj
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:176    .text._Z10MyCallbackPKfPfj:00000028 $d
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:181    .text.startup.main:00000000 $t
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:189    .text.startup.main:00000000 main
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:475    .text.startup.main:000000b8 $d
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:491    .text.startup._GLOBAL__sub_I_hardware:00000000 $t
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:498    .text.startup._GLOBAL__sub_I_hardware:00000000 _GLOBAL__sub_I_hardware
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:639    .text.startup._GLOBAL__sub_I_hardware:00000024 $d
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:650    .init_array:00000000 $d
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:674    .data.midiNotes:00000000 midiNotes
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:667    .bss.osc:00000000 osc
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:660    .bss.hardware:00000000 hardware
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:656    .bss.hardware:00000000 $d
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:663    .bss.osc:00000000 $d
-C:\Users\paulb\AppData\Local\Temp\ccv5hBmH.s:670    .data.midiNotes:00000000 $d
+                            *ABS*:00000000 bpmFrog.cpp
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:17     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:67     .text._ZN7daisysp10OscillatorD2Ev:00000000 $t
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:75     .text._ZN7daisysp10OscillatorD2Ev:00000000 _ZN7daisysp10OscillatorD2Ev
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:75     .text._ZN7daisysp10OscillatorD2Ev:00000000 _ZN7daisysp10OscillatorD1Ev
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:92     .text._Z10MyCallbackPKfPfj:00000000 $t
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:100    .text._Z10MyCallbackPKfPfj:00000000 _Z10MyCallbackPKfPfj
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:176    .text._Z10MyCallbackPKfPfj:00000028 $d
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:181    .text.startup.main:00000000 $t
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:189    .text.startup.main:00000000 main
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:519    .text.startup.main:00000104 $d
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:538    .text.startup._GLOBAL__sub_I_hardware:00000000 $t
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:545    .text.startup._GLOBAL__sub_I_hardware:00000000 _GLOBAL__sub_I_hardware
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:686    .text.startup._GLOBAL__sub_I_hardware:00000024 $d
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:697    .init_array:00000000 $d
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:721    .data.midiNotes:00000000 midiNotes
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:714    .bss.osc:00000000 osc
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:707    .bss.hardware:00000000 hardware
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:703    .bss.hardware:00000000 $d
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:710    .bss.osc:00000000 $d
+C:\Users\paulb\AppData\Local\Temp\ccttbNhd.s:717    .data.midiNotes:00000000 $d
                            .group:00000000 _ZN5daisy9DaisySeedD5Ev
                            .group:00000000 _ZN7daisysp10OscillatorD5Ev
 
@@ -1999,7 +2048,12 @@ _ZN5daisy9DaisySeed4InitEb
 _ZN5daisy9DaisySeed15AudioSampleRateEv
 _ZN7daisysp10Oscillator12CalcPhaseIncEf
 _ZN5daisy9DaisySeed10StartAudioEPFvPKfPfjE
+_ZN5daisy9DaisySeed6GetPinEh
+_ZN5daisy16AdcChannelConfig10InitSingleE12dsy_gpio_pinNS0_15ConversionSpeedE
+_ZN5daisy9AdcHandle4InitEPNS_16AdcChannelConfigEjNS0_12OverSamplingE
+_ZN5daisy9AdcHandle5StartEv
 _ZN5daisy6System5DelayEm
+_ZNK5daisy9AdcHandle8GetFloatEh
 powf
 __aeabi_atexit
 __dso_handle
