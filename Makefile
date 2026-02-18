@@ -2,7 +2,7 @@
 TARGET = Blink
 
 # Sources
-CPP_SOURCES = diarrea_filter.cpp
+CPP_SOURCES = brrr.cpp
 
 # Library Locations
 LIBDAISY_DIR = ../../libDaisy
@@ -12,3 +12,4 @@ DAISYSP_DIR = ../../DaisySP
 SYSTEM_FILES_DIR = $(LIBDAISY_DIR)/core
 include $(SYSTEM_FILES_DIR)/Makefile
 
+ 

@@ -1,4 +1,4 @@
-build/diarrea_filter.o: diarrea_filter.cpp \
+build/brrr.o: brrr.cpp \
  ../../libDaisy/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../libDaisy/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h \
  ../../libDaisy/Drivers/CMSIS/Include/core_cm7.h \
