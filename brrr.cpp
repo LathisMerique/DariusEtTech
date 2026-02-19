@@ -6,10 +6,10 @@ using namespace daisysp;
 
 DaisySeed hardware;
 
-// --- Modules Audio pour le son Jupiter-8 ---
+// Modules Audio pour le son Jupiter-8
 Oscillator osc1; // Oscillateur principal
 Oscillator osc2; // Oscillateur secondaire (pour le "Detune")
-Svf        flt;  // Filtre (State Variable Filter)
+Svf        flt;  // Filtre (State variable filter)
 Adsr       adsr; // Enveloppe
 
 bool gate = false;
@@ -76,10 +76,10 @@ void MyCallback(AudioHandle::InterleavingInputBuffer  in,
     }
 }
 
-float midiNotes[]
-    = {74, 0,  0,  0,  77, 0,  0,  74, 0,  74, 79, 0,  74, 0,  72, 0, 74, 0,
-       0,  0,  81, 0,  0,  74, 0,  74, 82, 0,  81, 0,  77, 0,  74, 0, 81, 0,
-       86, 74, 0,  72, 72, 0,  69, 0,  76, 0,  74, 74, 74, 74, 0,  0};
+float midiNotes[] = {74, 0,  62, 0, 77, 0, 48, 74, 0, 74, 79, 0, 74, 0, 72, 0,
+                     74, 0,  50, 0, 81, 0, 62, 74, 0, 74, 82, 0, 81, 0, 77, 0,
+                     62, 0,  81, 0, 86, 0, 74, 72, 0, 72, 69, 0, 76, 0, 74, 74,
+                     74, 74, 74, 0, 0,  0, 0,  0,  0, 60, 57, 0, 55, 0, 53, 0};
 
 int main(void)
 {
@@ -88,7 +88,8 @@ int main(void)
 
     // Init Osc 1
     osc1.Init(sr);
-    osc1.SetWaveform(Oscillator::WAVE_SAW); // Dents de scie (Classique Jupiter)
+    osc1.SetWaveform(
+        Oscillator::WAVE_SAW); // Dents de scie (Classique Jupiter W)
     osc1.SetAmp(0.6f);
 
     // Init Osc 2 (Shadow oscillator)
@@ -98,7 +99,7 @@ int main(void)
 
     // Init Filtre
     flt.Init(sr);
-    flt.SetDrive(0.3f); // Ajoute un peu de saturation chaude
+    flt.SetDrive(0.3f); // Ajoute un peu de saturation
 
     // Init Enveloppe
     adsr.Init(sr);
@@ -120,27 +121,28 @@ int main(void)
 
     hardware.adc.Init(adcConfig, 5);
     hardware.adc.Start();
+    int Nb_Midi = sizeof(midiNotes) / sizeof(midiNotes[0]);
 
     for(;;)
     {
-        for(int index = 0; index < 53; index++)
+        for(int index = 0; index < Nb_Midi; index++)
         {
             // Lecture des Potentiomètres
             float valTempo = hardware.adc.GetFloat(0);
             p_cutoff       = hardware.adc.GetFloat(1);
-            p_res          = hardware.adc.GetFloat(2); // Val entre 0.0 et 1.0
+            p_res          = hardware.adc.GetFloat(2);
             p_env_amt      = hardware.adc.GetFloat(3);
             p_detune       = hardware.adc.GetFloat(4);
 
-            // Mise à jour de la logique de lecture (Ta logique originale)
-            if(midiNotes[index] == midiNotes[index + 1] && index < 52)
+            /* logique de lecture
+            if(index < Nb_Midi - 1 && midiNotes[index] == midiNotes[index + 1])
             {
                 on = false;
             }
             else
             {
                 on = true;
-            }
+            } */
 
             int j = midiNotes[index];
             if(j != 0)
